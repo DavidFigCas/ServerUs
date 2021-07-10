@@ -1,0 +1,952 @@
+type: app
+version: "1.0"
+platform: esp8266
+platforms:
+- cc3200
+- cc3220
+- esp32
+- esp8266
+- rs14100
+- stm32
+- ubuntu
+author: mongoose-os
+description: Captive portal example
+sources:
+- /home/dave/Documents/Mos-Devices/mos-base/src/main.c
+- /home/dave/Documents/Mos-Devices/mos-base/build/gen/mgos_deps_init.c
+- /home/dave/Documents/Mos-Devices/mos-base/deps/mbedtls/src/mgos_mbedtls.c
+- /home/dave/Documents/Mos-Devices/mos-base/deps/mbedtls/src/esp8266/esp_aes.c
+- /home/dave/Documents/Mos-Devices/mos-base/deps/mbedtls/src/esp8266/esp_md5.c
+- /home/dave/Documents/Mos-Devices/mos-base/deps/mbedtls/src/esp8266/esp_sha1.c
+- /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/aes.c
+- /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/aes_atca.c
+- /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/aesni.c
+- /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/arc4.c
+- /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/aria.c
+- /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/asn1parse.c
+- /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/asn1write.c
+- /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/base64.c
+- /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/bignum.c
+- /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/blowfish.c
+- /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/camellia.c
+- /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/ccm.c
+- /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/certs.c
+- /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/chacha20.c
+- /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/chachapoly.c
+- /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/cipher.c
+- /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/cipher_wrap.c
+- /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/cmac.c
+- /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/ctr_drbg.c
+- /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/debug.c
+- /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/des.c
+- /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/dhm.c
+- /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/ecdh.c
+- /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/ecdsa.c
+- /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/ecjpake.c
+- /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/ecp.c
+- /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/ecp_atca.c
+- /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/ecp_curves.c
+- /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/entropy.c
+- /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/entropy_poll.c
+- /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/error.c
+- /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/gcm.c
+- /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/havege.c
+- /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/hkdf.c
+- /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/hmac_drbg.c
+- /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/md.c
+- /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/md2.c
+- /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/md4.c
+- /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/md5.c
+- /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/md_wrap.c
+- /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/memory_buffer_alloc.c
+- /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/net_sockets.c
+- /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/nist_kw.c
+- /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/oid.c
+- /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/padlock.c
+- /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/pem.c
+- /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/pk.c
+- /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/pk_wrap.c
+- /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/pkcs11.c
+- /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/pkcs12.c
+- /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/pkcs5.c
+- /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/pkparse.c
+- /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/pkwrite.c
+- /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/platform.c
+- /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/platform_util.c
+- /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/poly1305.c
+- /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/ripemd160.c
+- /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/rsa.c
+- /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/rsa_internal.c
+- /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/sha1.c
+- /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/sha256.c
+- /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/sha512.c
+- /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/ssl_cache.c
+- /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/ssl_ciphersuites.c
+- /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/ssl_cli.c
+- /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/ssl_cookie.c
+- /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/ssl_srv.c
+- /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/ssl_ticket.c
+- /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/ssl_tls.c
+- /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/threading.c
+- /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/timing.c
+- /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/version.c
+- /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/version_features.c
+- /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/x509.c
+- /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/x509_create.c
+- /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/x509_crl.c
+- /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/x509_crt.c
+- /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/x509_csr.c
+- /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/x509write_crt.c
+- /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/x509write_csr.c
+- /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/xtea.c
+- /home/dave/Documents/Mos-Devices/mos-base/deps/vfs-common/src/mgos_vfs.c
+- /home/dave/Documents/Mos-Devices/mos-base/deps/vfs-common/src/mgos_vfs_dev.c
+- /home/dave/Documents/Mos-Devices/mos-base/deps/vfs-common/src/mgos_vfs_internal.c
+- /home/dave/Documents/Mos-Devices/mos-base/deps/vfs-common/src/esp8266/esp_fs.c
+- /home/dave/Documents/Mos-Devices/mos-base/deps/vfs-common/src/esp8266/esp_vfs_dev_sysflash.c
+- /home/dave/Documents/Mos-Devices/mos-base/deps/vfs-dev-part/src/mgos_vfs_dev_part.c
+- /home/dave/Documents/Mos-Devices/mos-base/deps/vfs-fs-lfs/src/mgos_vfs_lfs.c
+- /home/dave/Documents/Mos-Devices/mos-base/deps/vfs-fs-lfs/littlefs/lfs.c
+- /home/dave/Documents/Mos-Devices/mos-base/deps/vfs-fs-lfs/littlefs/lfs_util.c
+- /home/dave/Documents/Mos-Devices/mos-base/deps/vfs-fs-lfs/littlefs1/lfs1.c
+- /home/dave/Documents/Mos-Devices/mos-base/deps/vfs-fs-lfs/littlefs1/lfs1_util.c
+- /home/dave/Documents/Mos-Devices/mos-base/deps/vfs-fs-spiffs/src/mgos_vfs_fs_spiffs.c
+- /home/dave/Documents/Mos-Devices/mos-base/deps/vfs-fs-spiffs/src/spiffs/spiffs_cache.c
+- /home/dave/Documents/Mos-Devices/mos-base/deps/vfs-fs-spiffs/src/spiffs/spiffs_check.c
+- /home/dave/Documents/Mos-Devices/mos-base/deps/vfs-fs-spiffs/src/spiffs/spiffs_gc.c
+- /home/dave/Documents/Mos-Devices/mos-base/deps/vfs-fs-spiffs/src/spiffs/spiffs_hydrogen.c
+- /home/dave/Documents/Mos-Devices/mos-base/deps/vfs-fs-spiffs/src/spiffs/spiffs_nucleus.c
+- /home/dave/Documents/Mos-Devices/mos-base/deps/core/src/mgos_core.c
+- /home/dave/Documents/Mos-Devices/mos-base/deps/core/src/esp8266/esp_rboot.c
+- /home/dave/Documents/Mos-Devices/mos-base/deps/http-server/src/mgos_http_server.c
+- /home/dave/Documents/Mos-Devices/mos-base/deps/rpc-common/src/mg_rpc.c
+- /home/dave/Documents/Mos-Devices/mos-base/deps/rpc-common/src/mg_rpc_channel.c
+- /home/dave/Documents/Mos-Devices/mos-base/deps/rpc-common/src/mg_rpc_channel_http.c
+- /home/dave/Documents/Mos-Devices/mos-base/deps/rpc-common/src/mgos_rpc.c
+- /home/dave/Documents/Mos-Devices/mos-base/deps/rpc-service-config/src/mgos_service_config.c
+- /home/dave/Documents/Mos-Devices/mos-base/deps/rpc-service-fs/src/mgos_service_fs.c
+- /home/dave/Documents/Mos-Devices/mos-base/deps/rpc-uart/src/mgos_rpc_channel_uart.c
+- /home/dave/Documents/Mos-Devices/mos-base/deps/wifi/src/mgos_wifi.c
+- /home/dave/Documents/Mos-Devices/mos-base/deps/wifi/src/mjs_wifi.c
+- /home/dave/Documents/Mos-Devices/mos-base/deps/wifi/src/esp8266/esp_wifi.c
+- /home/dave/Documents/Mos-Devices/mos-base/deps/rpc-ws/src/mgos_rpc_channel_ws.c
+- /home/dave/Documents/Mos-Devices/mos-base/deps/rpc-ws/src/mgos_rpc_ws.c
+includes:
+- /home/dave/Documents/Mos-Devices/mos-base/deps/mbedtls/include
+- /home/dave/Documents/Mos-Devices/mos-base/deps/mbedtls/include/esp8266
+- /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/include
+- /home/dave/Documents/Mos-Devices/mos-base/deps/vfs-common/include
+- /home/dave/Documents/Mos-Devices/mos-base/deps/vfs-common/include/esp8266
+- /home/dave/Documents/Mos-Devices/mos-base/deps/mongoose/include
+- /home/dave/Documents/Mos-Devices/mos-base/deps/vfs-dev-part/include
+- /home/dave/Documents/Mos-Devices/mos-base/deps/vfs-fs-lfs/include
+- /home/dave/Documents/Mos-Devices/mos-base/deps/vfs-fs-lfs/littlefs
+- /home/dave/Documents/Mos-Devices/mos-base/deps/vfs-fs-lfs/littlefs1
+- /home/dave/Documents/Mos-Devices/mos-base/deps/vfs-fs-spiffs/include
+- /home/dave/Documents/Mos-Devices/mos-base/deps/vfs-fs-spiffs/include/spiffs
+- /home/dave/Documents/Mos-Devices/mos-base/deps/vfs-fs-spiffs/include/esp8266
+- /home/dave/Documents/Mos-Devices/mos-base/deps/core/include
+- /home/dave/Documents/Mos-Devices/mos-base/deps/core/include/esp8266
+- /home/dave/Documents/Mos-Devices/mos-base/deps/http-server/include
+- /home/dave/Documents/Mos-Devices/mos-base/deps/rpc-common/include
+- /home/dave/Documents/Mos-Devices/mos-base/deps/rpc-service-config/include
+- /home/dave/Documents/Mos-Devices/mos-base/deps/rpc-uart/include
+- /home/dave/Documents/Mos-Devices/mos-base/deps/wifi/include
+- /home/dave/Documents/Mos-Devices/mos-base/deps/wifi/include/esp8266
+- /home/dave/Documents/Mos-Devices/mos-base/deps/rpc-ws/include
+filesystem:
+- /home/dave/Documents/Mos-Devices/mos-base/deps/ca-bundle/fs/ca.pem
+- /home/dave/Documents/Mos-Devices/mos-base/deps/wifi-setup-web-ui/fs/htm.min.js
+- /home/dave/Documents/Mos-Devices/mos-base/deps/wifi-setup-web-ui/fs/index.html
+- /home/dave/Documents/Mos-Devices/mos-base/deps/wifi-setup-web-ui/fs/json-rpc-ws.js
+- /home/dave/Documents/Mos-Devices/mos-base/deps/wifi-setup-web-ui/fs/main.js
+- /home/dave/Documents/Mos-Devices/mos-base/deps/wifi-setup-web-ui/fs/preact.min.js
+binary_libs:
+- /home/dave/Documents/Mos-Devices/mos-base/build/objs/libmongoose-esp8266-2.19.1.a
+modules:
+- origin: https://github.com/mongoose-os/mbedtls
+  location: https://github.com/mongoose-os/mbedtls
+  version: 2.16.6-cesanta1
+  name: mbedtls_module
+config_schema:
+- - debug.mbedtls_level
+  - i
+  - 1
+  - title: mbedTLS debug level
+- - device
+  - o
+  - title: Device settings
+- - device.id
+  - s
+  - title: Device ID
+- - device.license
+  - s
+  - title: License code
+- - device.mac
+  - s
+  - ""
+  - title: user/custom defined mac address
+- - device.public_key
+  - s
+  - ""
+  - title: Key for the restricted access
+- - device.sn
+  - s
+  - ""
+  - title: Serial number
+- - debug
+  - o
+  - title: Debug Settings
+- - debug.level
+  - i
+  - 2
+  - title: Debug Level
+- - debug.file_level
+  - s
+  - ""
+  - title: 'Log file level specification: file=level,file=level,...; see cs_log_set_file_level()'
+- - debug.event_level
+  - i
+  - 2
+  - title: Max level for which a MGOS_EVENT_LOG is raised
+- - debug.stdout_uart
+  - i
+  - 0
+  - title: STDOUT UART (-1 to disable)
+- - debug.stderr_uart
+  - i
+  - 0
+  - title: STDERR UART (-1 to disable)
+- - debug.factory_reset_gpio
+  - i
+  - -1
+  - title: Factory reset GPIO (low on boot)
+- - debug.mg_mgr_hexdump_file
+  - s
+  - title: File name to hexdump network traffic to. Use '-' for stdout, '--' for stderr.
+- - sys
+  - o
+  - title: System settings
+- - sys.tz_spec
+  - s
+  - ""
+  - title: 'See formats for the TZ env var: "man tzset". Formats like ":/path/to/file"
+      are not supported'
+- - sys.wdt_timeout
+  - i
+  - 30
+  - title: Watchdog timeout (seconds)
+- - sys.pref_ota_lib
+  - s
+  - title: Preferred ota lib, e.g. dash, ota-http-client
+- - conf_acl
+  - s
+  - '*'
+  - title: Conf ACL
+- - device.id
+  - esp8266_??????
+- - http
+  - o
+  - title: HTTP Server
+- - http.enable
+  - b
+  - true
+  - title: Enable HTTP Server
+- - http.listen_addr
+  - s
+  - "80"
+  - title: Listening port / address
+- - http.document_root
+  - s
+  - /
+  - title: Root for serving files. Setting to empty disables file serving.
+- - http.index_files
+  - s
+  - ""
+  - title: Comma-separated list of index files
+- - http.ssl_cert
+  - s
+  - title: Turn on SSL on the listener, use this cert
+- - http.ssl_key
+  - s
+  - title: SSL key to use
+- - http.ssl_ca_cert
+  - s
+  - title: Verify clients this CA bundle
+- - http.upload_acl
+  - s
+  - '*'
+  - title: Upload file ACL
+- - http.hidden_files
+  - s
+  - title: Hidden file pattern
+- - http.auth_domain
+  - s
+  - title: Enable authentication of all HTTP requests
+- - http.auth_file
+  - s
+  - title: Password file to use for auth
+- - http.extra_headers
+  - s
+  - title: Extra headers to send with every file served
+- - rpc
+  - o
+  - title: RPC settings
+- - rpc.enable
+  - b
+  - true
+  - title: Enable RPC
+- - rpc.http_enable
+  - b
+  - true
+  - title: Enable RPC over HTTP
+- - rpc.service_sys_enable
+  - b
+  - true
+  - title: Enable Sys RPC service
+- - rpc.max_frame_size
+  - i
+  - 4096
+  - title: Max Frame Size
+- - rpc.max_queue_length
+  - i
+  - 25
+  - title: Max Queue Length
+- - rpc.default_out_channel_idle_close_timeout
+  - i
+  - 10
+  - title: Default idle close timeout for outbound channels
+- - rpc.acl_file
+  - s
+  - ""
+  - title: File with RPC ACL JSON
+- - rpc.auth_domain
+  - s
+  - RPC
+  - title: Realm to use for digest authentication
+- - rpc.auth_file
+  - s
+  - ""
+  - title: File with user credentials in the htdigest format
+- - rpc.uart
+  - o
+  - title: RPC-over-UART settings
+- - rpc.uart.uart_no
+  - i
+  - 0
+  - title: UART number (-1 to disable)
+- - rpc.uart.baud_rate
+  - i
+  - 115200
+  - title: Baud rate
+- - rpc.uart.fc_type
+  - i
+  - 2
+  - title: 'Flow control: 0 - none, 1 - CTS/RTS, 2 - XON/XOFF'
+- - rpc.uart.dst
+  - s
+  - ""
+  - title: Destination reachable via this channel
+- - wifi
+  - o
+  - hide: true
+- - wifi.ap
+  - o
+  - title: WiFi Access Point Config
+- - wifi.ap.enable
+  - b
+  - true
+  - title: Enable
+- - wifi.ap.ssid
+  - s
+  - Invento_??????
+  - title: SSID
+- - wifi.ap.pass
+  - s
+  - "12345678"
+  - title: Password
+    type: password
+- - wifi.ap.hidden
+  - b
+  - false
+  - title: Hide SSID
+- - wifi.ap.channel
+  - i
+  - 6
+  - title: Channel
+- - wifi.ap.max_connections
+  - i
+  - 10
+  - title: Max connections
+- - wifi.ap.ip
+  - s
+  - 192.168.10.1
+  - title: IP address
+- - wifi.ap.netmask
+  - s
+  - 255.255.255.0
+  - title: Network Mask
+- - wifi.ap.gw
+  - s
+  - 192.168.10.1
+  - title: Default Gateway
+- - wifi.ap.dhcp_start
+  - s
+  - 192.168.10.2
+  - title: DHCP Start Address
+- - wifi.ap.dhcp_end
+  - s
+  - 192.168.10.100
+  - title: DHCP End Address
+- - wifi.ap.trigger_on_gpio
+  - i
+  - -1
+  - title: Trigger AP on low GPIO
+- - wifi.ap.disable_after
+  - i
+  - 0
+  - title: If > 0, will disable itself after the specified number of seconds
+- - wifi.ap.hostname
+  - s
+  - ""
+  - title: If not empty, DNS server will resolve given host name to the IP address
+      of AP
+- - wifi.sta
+  - o
+  - title: WiFi Station Config
+- - wifi.sta.enable
+  - b
+  - title: Connect to existing WiFi
+- - wifi.sta.ssid
+  - s
+  - title: SSID
+- - wifi.sta.pass
+  - s
+  - title: Password
+    type: password
+- - wifi.sta.user
+  - s
+  - title: Username for WPA-PEAP mode
+- - wifi.sta.anon_identity
+  - s
+  - title: Anonymous identity for WPA mode
+- - wifi.sta.cert
+  - s
+  - title: Client certificate for WPA-TTLS mode
+- - wifi.sta.key
+  - s
+  - title: Client key for WPA-TTLS mode
+- - wifi.sta.ca_cert
+  - s
+  - title: CA certificate for WPA-enterprise mode
+- - wifi.sta.ip
+  - s
+  - title: Static IP Address
+- - wifi.sta.netmask
+  - s
+  - title: Static Netmask
+- - wifi.sta.gw
+  - s
+  - title: Static Default Gateway
+- - wifi.sta.nameserver
+  - s
+  - title: DNS Server
+- - wifi.sta.dhcp_hostname
+  - s
+  - title: Host name to include in DHCP requests
+- - wifi.sta1
+  - wifi.sta
+  - title: WiFi Station Config 1
+- - wifi.sta1.enable
+  - false
+- - wifi.sta2
+  - wifi.sta
+  - title: WiFi Station Config 2
+- - wifi.sta2.enable
+  - false
+- - wifi.sta_cfg_idx
+  - i
+  - 0
+  - title: WiFi station config index to use, 0, 1 or 2
+- - wifi.sta_connect_timeout
+  - i
+  - 30
+  - title: Timeout for connection, seconds
+- - wifi.ap.keep_enabled
+  - b
+  - true
+  - title: Keep AP enabled when station is on
+- - wifi.sta_all_chan_scan
+  - b
+  - true
+  - title: true to scan all channels or false to perform fast scan
+- - rpc.ws
+  - o
+  - title: RPC over WebSocket settings
+- - rpc.ws.enable
+  - b
+  - true
+  - title: Enable RPC over WebSocket
+- - rpc.ws.server_address
+  - s
+  - ""
+  - title: Cloud server address
+- - rpc.ws.reconnect_interval_min
+  - i
+  - 1
+  - title: Minimal reconnect interval
+- - rpc.ws.reconnect_interval_max
+  - i
+  - 60
+  - title: Maximal reconnect interval
+- - rpc.ws.ssl_server_name
+  - s
+  - title: TLS Server Name
+- - rpc.ws.ssl_cert
+  - s
+  - title: TLS client cert file
+- - rpc.ws.ssl_key
+  - s
+  - title: TLS client key file
+- - rpc.ws.ssl_ca_cert
+  - s
+  - title: TLS CA file
+- - board
+  - o
+  - title: Board layout configuration
+- - board.led1.pin
+  - i
+  - -1
+  - title: LED GPIO pin
+- - board.led1.active_high
+  - b
+  - true
+  - title: True if LED is on when output is high (1)
+- - board.led2.pin
+  - i
+  - -1
+  - title: LED GPIO pin
+- - board.led2.active_high
+  - b
+  - true
+  - title: True if LED is on when output is high (1)
+- - board.led3.pin
+  - i
+  - -1
+  - title: LED GPIO pin
+- - board.led3.active_high
+  - b
+  - true
+  - title: True if LED is on when output is high (1)
+- - board.btn1.pin
+  - i
+  - -1
+  - title: Button GPIO pin
+- - board.btn1.pull_up
+  - b
+  - false
+  - title: True if button is pulled up when inactive
+- - board.btn2.pin
+  - i
+  - -1
+  - title: Button GPIO pin
+- - board.btn2.pull_up
+  - b
+  - false
+  - title: True if button is pulled up when inactive
+- - board.btn3.pin
+  - i
+  - -1
+  - title: Button GPIO pin
+- - board.btn3.pull_up
+  - b
+  - false
+  - title: True if button is pulled up when inactive
+- - board.led1.pin
+  - 2
+- - board.led1.active_high
+  - false
+- - board.btn1.pin
+  - 0
+- - board.btn1.pull_up
+  - true
+- - provision.btn.pin
+  - 0
+- - provision.btn.pull_up
+  - true
+- - provision.led.pin
+  - 2
+- - provision.led.active_high
+  - false
+- - mjs.generate_jsc
+  - false
+build_vars:
+  BOARD: esp8266-1M
+  FLASH_SIZE: "1048576"
+  MGOS: "1"
+  MGOS_HAVE_CA_BUNDLE: "1"
+  MGOS_HAVE_CORE: "1"
+  MGOS_HAVE_HTTP_SERVER: "1"
+  MGOS_HAVE_MBEDTLS: "1"
+  MGOS_HAVE_MONGOOSE: "1"
+  MGOS_HAVE_RPC_COMMON: "1"
+  MGOS_HAVE_RPC_SERVICE_CONFIG: "1"
+  MGOS_HAVE_RPC_SERVICE_FS: "1"
+  MGOS_HAVE_RPC_UART: "1"
+  MGOS_HAVE_RPC_WS: "1"
+  MGOS_HAVE_VFS_COMMON: "1"
+  MGOS_HAVE_VFS_DEV_PART: "1"
+  MGOS_HAVE_VFS_FS_LFS: "1"
+  MGOS_HAVE_VFS_FS_SPIFFS: "1"
+  MGOS_HAVE_WIFI: "1"
+  MGOS_HAVE_WIFI_SETUP_WEB_UI: "1"
+  MGOS_HAVE_ZZ_BOARDS: "1"
+  MGOS_MBEDTLS_ENABLE_ATCA: "0"
+  MGOS_ROOT_FS_OPTS_LFS: '{"bs":4096,"is":128}'
+  MGOS_ROOT_FS_OPTS_SPIFFS: '{"bs":4096,"ps":256,"es":4096}'
+  MGOS_WIFI_ENABLE_AP_STA: "0"
+cdefs:
+  LFS_NO_DEBUG: "1"
+  MBEDTLS_FREE_CERT_CHAIN: "1"
+  MBEDTLS_USER_CONFIG_FILE: \"mbedtls_platform_config.h\"
+  MBEDTLS_X509_CA_CHAIN_ON_DISK: "1"
+  MG_DISABLE_HTTP_KEEP_ALIVE: "1"
+  MG_ENABLE_DNS: "1"
+  MG_ENABLE_DNS_SERVER: "1"
+  MG_ENABLE_HTTP_SSI: "0"
+  MG_ENABLE_HTTP_STREAMING_MULTIPART: "1"
+  MG_ENABLE_MQTT: "1"
+  MG_ENABLE_SNTP: "1"
+  MG_ENABLE_SSL: "1"
+  MG_ENABLE_TUN: "0"
+  MG_LOG_DNS_FAILURES: "1"
+  MG_MAX_DNS_ANSWERS: "16"
+  MG_MAX_DNS_QUESTIONS: "16"
+  MG_MAX_HTTP_REQUEST_SIZE: "3072"
+  MG_MAX_HTTP_SEND_MBUF: "256"
+  MG_MAX_PATH: "256"
+  MG_SSL_IF: MG_SSL_IF_MBEDTLS
+  MG_SSL_IF_MBEDTLS_FREE_CERTS: "1"
+  MGOS: "1"
+  MGOS_ENABLE_FILE_UPLOAD: "1"
+  MGOS_ENABLE_RPC_CHANNEL_HTTP: "1"
+  MGOS_ENABLE_SYS_SERVICE: "1"
+  MGOS_ENABLE_WEB_CONFIG: "0"
+  MGOS_ESP8266_WIFI_ENABLE_WPAENT: "0"
+  MGOS_HAVE_CA_BUNDLE: "1"
+  MGOS_HAVE_CORE: "1"
+  MGOS_HAVE_HTTP_SERVER: "1"
+  MGOS_HAVE_MBEDTLS: "1"
+  MGOS_HAVE_MONGOOSE: "1"
+  MGOS_HAVE_RPC_COMMON: "1"
+  MGOS_HAVE_RPC_SERVICE_CONFIG: "1"
+  MGOS_HAVE_RPC_SERVICE_FS: "1"
+  MGOS_HAVE_RPC_UART: "1"
+  MGOS_HAVE_RPC_WS: "1"
+  MGOS_HAVE_VFS_COMMON: "1"
+  MGOS_HAVE_VFS_DEV_PART: "1"
+  MGOS_HAVE_VFS_FS_LFS: "1"
+  MGOS_HAVE_VFS_FS_SPIFFS: "1"
+  MGOS_HAVE_WIFI: "1"
+  MGOS_HAVE_WIFI_SETUP_WEB_UI: "1"
+  MGOS_HAVE_ZZ_BOARDS: "1"
+  MGOS_LFS1_COMPAT: "0"
+  MGOS_ROOT_FS_OPTS_LFS: '{"bs":4096,"is":128}'
+  MGOS_ROOT_FS_OPTS_SPIFFS: '{"bs":4096,"ps":256,"es":4096}'
+  MGOS_WIFI_ENABLE_AP_STA: "1"
+tags:
+- c
+libs_version: 2.19.1
+modules_version: 2.19.1
+mongoose_os_version: 2.19.1
+manifest_version: "2017-05-18"
+libs_handled:
+- lib:
+    origin: https://github.com/mongoose-os-libs/mbedtls
+    location: https://github.com/mongoose-os-libs/mbedtls
+    name: mbedtls
+  path: /home/dave/Documents/Mos-Devices/mos-base/deps/mbedtls
+  sources:
+  - /home/dave/Documents/Mos-Devices/mos-base/deps/mbedtls/src/mgos_mbedtls.c
+  - /home/dave/Documents/Mos-Devices/mos-base/deps/mbedtls/src/esp8266/esp_aes.c
+  - /home/dave/Documents/Mos-Devices/mos-base/deps/mbedtls/src/esp8266/esp_md5.c
+  - /home/dave/Documents/Mos-Devices/mos-base/deps/mbedtls/src/esp8266/esp_sha1.c
+  - /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/aes.c
+  - /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/aes_atca.c
+  - /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/aesni.c
+  - /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/arc4.c
+  - /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/aria.c
+  - /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/asn1parse.c
+  - /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/asn1write.c
+  - /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/base64.c
+  - /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/bignum.c
+  - /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/blowfish.c
+  - /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/camellia.c
+  - /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/ccm.c
+  - /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/certs.c
+  - /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/chacha20.c
+  - /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/chachapoly.c
+  - /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/cipher.c
+  - /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/cipher_wrap.c
+  - /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/cmac.c
+  - /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/ctr_drbg.c
+  - /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/debug.c
+  - /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/des.c
+  - /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/dhm.c
+  - /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/ecdh.c
+  - /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/ecdsa.c
+  - /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/ecjpake.c
+  - /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/ecp.c
+  - /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/ecp_atca.c
+  - /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/ecp_curves.c
+  - /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/entropy.c
+  - /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/entropy_poll.c
+  - /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/error.c
+  - /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/gcm.c
+  - /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/havege.c
+  - /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/hkdf.c
+  - /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/hmac_drbg.c
+  - /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/md.c
+  - /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/md2.c
+  - /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/md4.c
+  - /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/md5.c
+  - /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/md_wrap.c
+  - /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/memory_buffer_alloc.c
+  - /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/net_sockets.c
+  - /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/nist_kw.c
+  - /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/oid.c
+  - /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/padlock.c
+  - /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/pem.c
+  - /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/pk.c
+  - /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/pk_wrap.c
+  - /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/pkcs11.c
+  - /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/pkcs12.c
+  - /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/pkcs5.c
+  - /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/pkparse.c
+  - /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/pkwrite.c
+  - /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/platform.c
+  - /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/platform_util.c
+  - /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/poly1305.c
+  - /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/ripemd160.c
+  - /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/rsa.c
+  - /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/rsa_internal.c
+  - /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/sha1.c
+  - /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/sha256.c
+  - /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/sha512.c
+  - /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/ssl_cache.c
+  - /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/ssl_ciphersuites.c
+  - /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/ssl_cli.c
+  - /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/ssl_cookie.c
+  - /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/ssl_srv.c
+  - /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/ssl_ticket.c
+  - /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/ssl_tls.c
+  - /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/threading.c
+  - /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/timing.c
+  - /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/version.c
+  - /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/version_features.c
+  - /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/x509.c
+  - /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/x509_create.c
+  - /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/x509_crl.c
+  - /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/x509_crt.c
+  - /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/x509_csr.c
+  - /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/x509write_crt.c
+  - /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/x509write_csr.c
+  - /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/xtea.c
+  version: 2.16.6-cesanta1
+- lib:
+    origin: https://github.com/mongoose-os-libs/vfs-common
+    location: https://github.com/mongoose-os-libs/vfs-common
+    name: vfs-common
+  path: /home/dave/Documents/Mos-Devices/mos-base/deps/vfs-common
+  sources:
+  - /home/dave/Documents/Mos-Devices/mos-base/deps/vfs-common/src/mgos_vfs.c
+  - /home/dave/Documents/Mos-Devices/mos-base/deps/vfs-common/src/mgos_vfs_dev.c
+  - /home/dave/Documents/Mos-Devices/mos-base/deps/vfs-common/src/mgos_vfs_internal.c
+  - /home/dave/Documents/Mos-Devices/mos-base/deps/vfs-common/src/esp8266/esp_fs.c
+  - /home/dave/Documents/Mos-Devices/mos-base/deps/vfs-common/src/esp8266/esp_vfs_dev_sysflash.c
+  version: "1.0"
+- lib:
+    origin: https://github.com/mongoose-os-libs/mongoose
+    location: https://github.com/mongoose-os-libs/mongoose
+    name: mongoose
+  path: /home/dave/Documents/Mos-Devices/mos-base/deps/mongoose
+  version: "6.18"
+- lib:
+    origin: https://github.com/mongoose-os-libs/vfs-dev-part
+    location: https://github.com/mongoose-os-libs/vfs-dev-part
+    name: vfs-dev-part
+  path: /home/dave/Documents/Mos-Devices/mos-base/deps/vfs-dev-part
+  init_deps:
+  - vfs-common
+  sources:
+  - /home/dave/Documents/Mos-Devices/mos-base/deps/vfs-dev-part/src/mgos_vfs_dev_part.c
+  version: "1.0"
+- lib:
+    origin: https://github.com/mongoose-os-libs/vfs-fs-lfs
+    location: https://github.com/mongoose-os-libs/vfs-fs-lfs
+    name: vfs-fs-lfs
+  path: /home/dave/Documents/Mos-Devices/mos-base/deps/vfs-fs-lfs
+  init_deps:
+  - vfs-common
+  sources:
+  - /home/dave/Documents/Mos-Devices/mos-base/deps/vfs-fs-lfs/src/mgos_vfs_lfs.c
+  - /home/dave/Documents/Mos-Devices/mos-base/deps/vfs-fs-lfs/littlefs/lfs.c
+  - /home/dave/Documents/Mos-Devices/mos-base/deps/vfs-fs-lfs/littlefs/lfs_util.c
+  - /home/dave/Documents/Mos-Devices/mos-base/deps/vfs-fs-lfs/littlefs1/lfs1.c
+  - /home/dave/Documents/Mos-Devices/mos-base/deps/vfs-fs-lfs/littlefs1/lfs1_util.c
+  version: 2.2.0
+- lib:
+    origin: https://github.com/mongoose-os-libs/vfs-fs-spiffs
+    location: https://github.com/mongoose-os-libs/vfs-fs-spiffs
+    name: vfs-fs-spiffs
+  path: /home/dave/Documents/Mos-Devices/mos-base/deps/vfs-fs-spiffs
+  init_deps:
+  - vfs-common
+  sources:
+  - /home/dave/Documents/Mos-Devices/mos-base/deps/vfs-fs-spiffs/src/mgos_vfs_fs_spiffs.c
+  - /home/dave/Documents/Mos-Devices/mos-base/deps/vfs-fs-spiffs/src/spiffs/spiffs_cache.c
+  - /home/dave/Documents/Mos-Devices/mos-base/deps/vfs-fs-spiffs/src/spiffs/spiffs_check.c
+  - /home/dave/Documents/Mos-Devices/mos-base/deps/vfs-fs-spiffs/src/spiffs/spiffs_gc.c
+  - /home/dave/Documents/Mos-Devices/mos-base/deps/vfs-fs-spiffs/src/spiffs/spiffs_hydrogen.c
+  - /home/dave/Documents/Mos-Devices/mos-base/deps/vfs-fs-spiffs/src/spiffs/spiffs_nucleus.c
+  version: "1.0"
+- lib:
+    origin: https://github.com/mongoose-os-libs/core
+    location: https://github.com/mongoose-os-libs/core
+    name: core
+  path: /home/dave/Documents/Mos-Devices/mos-base/deps/core
+  init_deps:
+  - mongoose
+  - vfs-common
+  - vfs-dev-part
+  - vfs-fs-lfs
+  - vfs-fs-spiffs
+  sources:
+  - /home/dave/Documents/Mos-Devices/mos-base/deps/core/src/mgos_core.c
+  - /home/dave/Documents/Mos-Devices/mos-base/deps/core/src/esp8266/esp_rboot.c
+  version: "1.0"
+- lib:
+    origin: https://github.com/mongoose-os-libs/ca-bundle
+    location: https://github.com/mongoose-os-libs/ca-bundle
+    name: ca-bundle
+  path: /home/dave/Documents/Mos-Devices/mos-base/deps/ca-bundle
+  init_deps:
+  - core
+  version: "1.0"
+- lib:
+    origin: https://github.com/mongoose-os-libs/http-server
+    location: https://github.com/mongoose-os-libs/http-server
+    name: http-server
+  path: /home/dave/Documents/Mos-Devices/mos-base/deps/http-server
+  init_deps:
+  - core
+  - wifi
+  sources:
+  - /home/dave/Documents/Mos-Devices/mos-base/deps/http-server/src/mgos_http_server.c
+  version: "1.0"
+- lib:
+    origin: https://github.com/mongoose-os-libs/rpc-common
+    location: https://github.com/mongoose-os-libs/rpc-common
+    name: rpc-common
+  path: /home/dave/Documents/Mos-Devices/mos-base/deps/rpc-common
+  init_deps:
+  - core
+  - http-server
+  - mongoose
+  sources:
+  - /home/dave/Documents/Mos-Devices/mos-base/deps/rpc-common/src/mg_rpc.c
+  - /home/dave/Documents/Mos-Devices/mos-base/deps/rpc-common/src/mg_rpc_channel.c
+  - /home/dave/Documents/Mos-Devices/mos-base/deps/rpc-common/src/mg_rpc_channel_http.c
+  - /home/dave/Documents/Mos-Devices/mos-base/deps/rpc-common/src/mgos_rpc.c
+  version: "1.0"
+- lib:
+    origin: https://github.com/mongoose-os-libs/rpc-service-config
+    location: https://github.com/mongoose-os-libs/rpc-service-config
+    name: rpc-service-config
+  path: /home/dave/Documents/Mos-Devices/mos-base/deps/rpc-service-config
+  init_deps:
+  - core
+  - rpc-common
+  sources:
+  - /home/dave/Documents/Mos-Devices/mos-base/deps/rpc-service-config/src/mgos_service_config.c
+  version: "1.0"
+- lib:
+    origin: https://github.com/mongoose-os-libs/rpc-service-fs
+    location: https://github.com/mongoose-os-libs/rpc-service-fs
+    name: rpc-service-fs
+  path: /home/dave/Documents/Mos-Devices/mos-base/deps/rpc-service-fs
+  init_deps:
+  - core
+  - rpc-common
+  - vfs-common
+  sources:
+  - /home/dave/Documents/Mos-Devices/mos-base/deps/rpc-service-fs/src/mgos_service_fs.c
+  version: "1.0"
+- lib:
+    origin: https://github.com/mongoose-os-libs/rpc-uart
+    location: https://github.com/mongoose-os-libs/rpc-uart
+    name: rpc-uart
+  path: /home/dave/Documents/Mos-Devices/mos-base/deps/rpc-uart
+  init_deps:
+  - core
+  - rpc-common
+  sources:
+  - /home/dave/Documents/Mos-Devices/mos-base/deps/rpc-uart/src/mgos_rpc_channel_uart.c
+  version: "1.0"
+- lib:
+    origin: https://github.com/mongoose-os-libs/wifi
+    location: https://github.com/mongoose-os-libs/wifi
+    name: wifi
+  path: /home/dave/Documents/Mos-Devices/mos-base/deps/wifi
+  init_deps:
+  - core
+  sources:
+  - /home/dave/Documents/Mos-Devices/mos-base/deps/wifi/src/mgos_wifi.c
+  - /home/dave/Documents/Mos-Devices/mos-base/deps/wifi/src/mjs_wifi.c
+  - /home/dave/Documents/Mos-Devices/mos-base/deps/wifi/src/esp8266/esp_wifi.c
+  version: "1.0"
+- lib:
+    origin: https://github.com/mongoose-os-libs/rpc-ws
+    location: https://github.com/mongoose-os-libs/rpc-ws
+    name: rpc-ws
+  path: /home/dave/Documents/Mos-Devices/mos-base/deps/rpc-ws
+  init_deps:
+  - core
+  - http-server
+  - rpc-common
+  sources:
+  - /home/dave/Documents/Mos-Devices/mos-base/deps/rpc-ws/src/mgos_rpc_channel_ws.c
+  - /home/dave/Documents/Mos-Devices/mos-base/deps/rpc-ws/src/mgos_rpc_ws.c
+  version: "1.0"
+- lib:
+    origin: https://github.com/mongoose-os-libs/wifi-setup-web-ui
+    location: https://github.com/mongoose-os-libs/wifi-setup-web-ui
+    name: wifi-setup-web-ui
+  path: /home/dave/Documents/Mos-Devices/mos-base/deps/wifi-setup-web-ui
+  init_deps:
+  - core
+  - rpc-ws
+  version: "1.0"
+- lib:
+    origin: https://github.com/mongoose-os-libs/boards
+    location: https://github.com/mongoose-os-libs/boards
+    name: zz_boards
+  path: /home/dave/Documents/Mos-Devices/mos-base/deps/boards
+init_deps:
+- mongoose
+- vfs-common
+- vfs-dev-part
+- vfs-fs-lfs
+- vfs-fs-spiffs
+- core
+- ca-bundle
+- wifi
+- http-server
+- mbedtls
+- rpc-common
+- rpc-service-config
+- rpc-service-fs
+- rpc-uart
+- rpc-ws
+- wifi-setup-web-ui
+- zz_boards
