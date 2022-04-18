@@ -1,5 +1,5 @@
 author: mongoose-os
-description: Captive portal example
+description: A Mongoose OS app skeleton
 version: 1.0
 
 libs_version: ${mos.version}
@@ -18,20 +18,68 @@ sources:
 filesystem:
   - fs
 
-# List of libraries used by this app, in order of initialisation
+# Custom configuration entries, settable via "device configuration"
+# Below is a custom firmware configuration example.
+# Uncomment and modify according to your needs:
+
+config_schema:
+  - ["app", "o", {title: "My app custom settings"}]
+  - ["app.pin", "i", 12, {title: "GPIO pin a sensor is attached to"}]
+#  - ["my_app", "o", {title: "My app custom settings"}]
+#  - ["my_app.bool_value", "b", false, {title: "Some boolean value"}]
+#  - ["my_app.string_value", "s", "", {title: "Some string value"}]
+#  - ["my_app.int_value", "i", 123, {title: "Some integer value"}]
+
+# These settings get compiled into the C structure, and can be accessed
+# from the C code this way:
+#
+# printf("Hello from %s!\n", mgos_sys_config_get_device_id());
+#
+# Settings are cool: can be modified remotely without full firmware upgrade!
+#
+# To see all available compiled settings, buid the firmware and open
+# build/gen/mgos_config.h file.
+#
+# Also, in this config_schema section, you can override existing
+# settings that has been created by other libraries. For example, debug log
+# level is 2 by default. For this firmware we can override it to 3:
+#
+# config_schema:
+#  - ["debug.level", 3]
+
+config_schema:
+  #- ["device.id", "s", "Invento_??????", {title: "ClientID t send to the broker. Defaults to device.id."}]
+
+  - ["wifi.ap.ssid", "s", "Invento_??????", {title: "SSID"}]
+  - ["wifi.ap.pass", "s", "12345678", {title: "Password", type: "password"}]
+  - ["wifi.ap.ip", "s", "192.168.10.1", {title: "IP address"}]
+  - ["wifi.ap.netmask", "s", "255.255.255.0", {title: "Network Mask"}]
+  - ["wifi.ap.gw", "s", "192.168.10.1", {title: "Default Gateway"}]
+  - ["wifi.ap.dhcp_start", "s", "192.168.10.2", {title: "DHCP Start Address"}]
+  - ["wifi.ap.dhcp_end", "s", "192.168.10.100", {title: "DHCP End Address"}]
+
+  - ["wifi.sta.enable", "b", true , {title: "Connect to existing WiFi"}]
+  - ["wifi.sta.ssid", "s","Inventoteca_2G", {title: "SSID"}]
+  - ["wifi.sta.pass", "s","science_7425", {title: "Password", type: "password"}]
+  
+  #- ["mqtt", "o", {title: "MQTT settings"}]
+  - ["mqtt.enable", "b", true, {title: "Enable MQTT"}]
+  - ["mqtt.server", "s", "broker.mqtt-dashboard.com", {title: "MQTT server"}]
+
+  - ["rpc.mqtt", "o", {title: "RPC over MQTT settings"}]
+  - ["rpc.mqtt.enable", "b", true, {title: "Enable RPC over MQTT"}]
+
 libs:
   - origin: https://github.com/mongoose-os-libs/boards
   - origin: https://github.com/mongoose-os-libs/ca-bundle
-  - origin: https://github.com/mongoose-os-libs/http-server
   - origin: https://github.com/mongoose-os-libs/rpc-service-config
   - origin: https://github.com/mongoose-os-libs/rpc-service-fs
+  - origin: https://github.com/mongoose-os-libs/rpc-service-gpio
+  - origin: https://github.com/mongoose-os-libs/rpc-mqtt
   - origin: https://github.com/mongoose-os-libs/rpc-uart
   - origin: https://github.com/mongoose-os-libs/wifi
-  - origin: https://github.com/mongoose-os-libs/wifi-setup-web-ui
-
-cdefs:
-  MG_ENABLE_DNS: 1
-  MG_ENABLE_DNS_SERVER: 1
+  - origin: https://github.com/mongoose-os-libs/mjs  # <-- Add this line!
+  - origin: https://github.com/mongoose-os-libs/mqtt # <-- Add this!
 
 # Used by the mos tool to catch mos binaries incompatible with this file format
-manifest_version: 2017-05-18
+manifest_version: 2017-09-29

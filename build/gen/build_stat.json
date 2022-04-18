@@ -1,6 +1,6 @@
 {
   "arch": "esp8266",
   "platform": "esp8266",
-  "app_name": "mos-base",
-  "build_time_ms": 45459
+  "app_name": "mqtt_esp8266_puerta_mos",
+  "build_time_ms": 51683
 }

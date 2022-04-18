@@ -74,50 +74,123 @@
   - title: Conf ACL
 - - device.id
   - esp8266_??????
-- - http
+- - mjs
   - o
-  - title: HTTP Server
-- - http.enable
+  - title: mJS settings
+- - mjs.generate_jsc
   - b
   - true
-  - title: Enable HTTP Server
-- - http.listen_addr
+  - title: Generate .jsc file when executing any .js file
+- - mqtt
+  - o
+  - title: MQTT settings
+- - mqtt.enable
+  - b
+  - false
+  - title: Enable MQTT
+- - mqtt.server
   - s
-  - "80"
-  - title: Listening port / address
-- - http.document_root
-  - s
-  - /
-  - title: Root for serving files. Setting to empty disables file serving.
-- - http.index_files
+  - iot.eclipse.org:1883
+  - title: MQTT server
+- - mqtt.client_id
   - s
   - ""
-  - title: Comma-separated list of index files
-- - http.ssl_cert
+  - title: ClientID t send to the broker. Defaults to device.id.
+- - mqtt.user
   - s
-  - title: Turn on SSL on the listener, use this cert
-- - http.ssl_key
+  - ""
+  - title: User name
+- - mqtt.pass
   - s
-  - title: SSL key to use
-- - http.ssl_ca_cert
+  - ""
+  - title: Password
+- - mqtt.reconnect_timeout_min
+  - d
+  - 2
+  - title: Starting reconnect timeout
+- - mqtt.reconnect_timeout_max
+  - d
+  - 60
+  - title: Maximum reconnect timeout
+- - mqtt.ssl_cert
   - s
-  - title: Verify clients this CA bundle
-- - http.upload_acl
+  - ""
+  - title: Client certificate to present to the server
+- - mqtt.ssl_key
   - s
-  - '*'
-  - title: Upload file ACL
-- - http.hidden_files
+  - ""
+  - title: Private key corresponding to the certificate
+- - mqtt.ssl_ca_cert
   - s
-  - title: Hidden file pattern
-- - http.auth_domain
+  - ""
+  - title: Verify server certificate using this CA bundle
+- - mqtt.ssl_cipher_suites
   - s
-  - title: Enable authentication of all HTTP requests
-- - http.auth_file
+  - ""
+  - title: Cipher suites to offer to the server
+- - mqtt.ssl_psk_identity
   - s
-  - title: Password file to use for auth
-- - http.extra_headers
+  - ""
+  - title: PSK identity (must specify PSK cipher suites)
+- - mqtt.ssl_psk_key
   - s
-  - title: Extra headers to send with every file served
+  - ""
+  - title: PSK key
+- - mqtt.clean_session
+  - b
+  - true
+  - title: Clean Session
+- - mqtt.keep_alive
+  - i
+  - 60
+  - title: Keep alive interval
+- - mqtt.will_topic
+  - s
+  - ""
+  - title: Will topic
+- - mqtt.will_message
+  - s
+  - ""
+  - title: Will message
+- - mqtt.will_retain
+  - b
+  - false
+  - title: Will retain flag
+- - mqtt.max_qos
+  - i
+  - 2
+  - title: Limit QoS of outgoing messages to at most this
+- - mqtt.recv_mbuf_limit
+  - i
+  - 3072
+  - title: Limit recv buffer size
+- - mqtt.require_time
+  - b
+  - false
+  - title: Only connect if (when) wall time is set
+- - mqtt.cloud_events
+  - b
+  - true
+  - title: Trigger cloud events when connected / disconnected
+- - mqtt.max_queue_length
+  - i
+  - 5
+  - title: Maximum queue length for buffering QoS 1+ messages. 0 to disable queue.
+- - mqtt1
+  - mqtt
+  - title: Backup MQTT settings
+- - mqtt1.enable
+  - false
+- - mqtt1.server
+  - ""
+- - debug.stdout_topic
+  - s
+  - ""
+  - title: MQTT topic to publish STDOUT to
+- - debug.stderr_topic
+  - s
+  - ""
+  - title: MQTT topic to publish STDERR to
 - - rpc
   - o
   - title: RPC settings
@@ -157,6 +230,30 @@
   - s
   - ""
   - title: File with user credentials in the htdigest format
+- - rpc.mqtt
+  - o
+  - title: RPC over MQTT settings
+- - rpc.mqtt.enable
+  - b
+  - true
+  - title: Enable RPC over MQTT
+- - rpc.mqtt.pub_topic
+  - s
+  - '%.*s/rpc'
+  - title: Topic to post outgoing frames to. Argument to the format string is the
+      frame's destination.
+- - rpc.mqtt.sub_topic
+  - s
+  - '%.*s/rpc'
+  - title: Topic to accept incoming frames on. Argument to the format string is device.id
+- - rpc.mqtt.sub_wc
+  - b
+  - true
+  - title: Also subscribe to wildcard topic
+- - rpc.mqtt.qos
+  - i
+  - 1
+  - title: QoS for pub and sub
 - - rpc.uart
   - o
   - title: RPC-over-UART settings
@@ -188,11 +285,11 @@
   - title: Enable
 - - wifi.ap.ssid
   - s
-  - Invento_??????
+  - Mongoose_??????
   - title: SSID
 - - wifi.ap.pass
   - s
-  - "12345678"
+  - Mongoose
   - title: Password
     type: password
 - - wifi.ap.hidden
@@ -209,7 +306,7 @@
   - title: Max connections
 - - wifi.ap.ip
   - s
-  - 192.168.10.1
+  - 192.168.4.1
   - title: IP address
 - - wifi.ap.netmask
   - s
@@ -217,15 +314,15 @@
   - title: Network Mask
 - - wifi.ap.gw
   - s
-  - 192.168.10.1
+  - 192.168.4.1
   - title: Default Gateway
 - - wifi.ap.dhcp_start
   - s
-  - 192.168.10.2
+  - 192.168.4.2
   - title: DHCP Start Address
 - - wifi.ap.dhcp_end
   - s
-  - 192.168.10.100
+  - 192.168.4.100
   - title: DHCP End Address
 - - wifi.ap.trigger_on_gpio
   - i
@@ -309,37 +406,6 @@
   - b
   - true
   - title: true to scan all channels or false to perform fast scan
-- - rpc.ws
-  - o
-  - title: RPC over WebSocket settings
-- - rpc.ws.enable
-  - b
-  - true
-  - title: Enable RPC over WebSocket
-- - rpc.ws.server_address
-  - s
-  - ""
-  - title: Cloud server address
-- - rpc.ws.reconnect_interval_min
-  - i
-  - 1
-  - title: Minimal reconnect interval
-- - rpc.ws.reconnect_interval_max
-  - i
-  - 60
-  - title: Maximal reconnect interval
-- - rpc.ws.ssl_server_name
-  - s
-  - title: TLS Server Name
-- - rpc.ws.ssl_cert
-  - s
-  - title: TLS client cert file
-- - rpc.ws.ssl_key
-  - s
-  - title: TLS client key file
-- - rpc.ws.ssl_ca_cert
-  - s
-  - title: TLS CA file
 - - board
   - o
   - title: Board layout configuration
@@ -409,3 +475,60 @@
   - false
 - - mjs.generate_jsc
   - false
+- - wifi.ap.ssid
+  - s
+  - Invento_??????
+  - title: SSID
+- - wifi.ap.pass
+  - s
+  - "12345678"
+  - title: Password
+    type: password
+- - wifi.ap.ip
+  - s
+  - 192.168.10.1
+  - title: IP address
+- - wifi.ap.netmask
+  - s
+  - 255.255.255.0
+  - title: Network Mask
+- - wifi.ap.gw
+  - s
+  - 192.168.10.1
+  - title: Default Gateway
+- - wifi.ap.dhcp_start
+  - s
+  - 192.168.10.2
+  - title: DHCP Start Address
+- - wifi.ap.dhcp_end
+  - s
+  - 192.168.10.100
+  - title: DHCP End Address
+- - wifi.sta.enable
+  - b
+  - true
+  - title: Connect to existing WiFi
+- - wifi.sta.ssid
+  - s
+  - Inventoteca_2G
+  - title: SSID
+- - wifi.sta.pass
+  - s
+  - science_7425
+  - title: Password
+    type: password
+- - mqtt.enable
+  - b
+  - true
+  - title: Enable MQTT
+- - mqtt.server
+  - s
+  - broker.mqtt-dashboard.com
+  - title: MQTT server
+- - rpc.mqtt
+  - o
+  - title: RPC over MQTT settings
+- - rpc.mqtt.enable
+  - b
+  - true
+  - title: Enable RPC over MQTT

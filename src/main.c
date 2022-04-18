@@ -1,34 +1,41 @@
+/*
+ * Copyright (c) 2014-2018 Cesanta Software Limited
+ * All rights reserved
+ *
+ * Licensed under the Apache License, Version 2.0 (the ""License"");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an ""AS IS"" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
 #include "mgos.h"
 
-static const char *s_our_ip = "192.168.4.1";
-
-static void ev_handler(struct mg_connection *c, int ev, void *ev_data,
-                       void *user_data) {
-  struct mg_dns_message *msg = (struct mg_dns_message *) ev_data;
-  struct mbuf reply_buf;
-  int i;
-
-  if (ev != MG_DNS_MESSAGE) return;
-
-  mbuf_init(&reply_buf, 512);
-  struct mg_dns_reply reply = mg_dns_create_reply(&reply_buf, msg);
-  for (i = 0; i < msg->num_questions; i++) {
-    char rname[256];
-    struct mg_dns_resource_record *rr = &msg->questions[i];
-    mg_dns_uncompress_name(msg, &rr->name, rname, sizeof(rname) - 1);
-    fprintf(stdout, "Q type %d name %s\n", rr->rtype, rname);
-    if (rr->rtype == MG_DNS_A_RECORD) {
-      uint32_t ip = inet_addr(s_our_ip);
-      mg_dns_reply_record(&reply, rr, NULL, rr->rtype, 10, &ip, 4);
-    }
-  }
-  mg_dns_send_reply(c, &reply);
-  mbuf_free(&reply_buf);
-  (void) user_data;
+static void timer_cb(void *arg) 
+{
+  static bool s_tick_tock = false;
+  LOG(LL_INFO,
+      ("%s uptime: %.2lf, RAM: %lu, %lu free", (s_tick_tock ? "Tick" : "Tock"),
+       mgos_uptime(), (unsigned long) mgos_get_heap_size(),
+       (unsigned long) mgos_get_free_heap_size()));
+  s_tick_tock = !s_tick_tock;
+#ifdef LED_PIN
+  mgos_gpio_toggle(LED_PIN);
+#endif
+  (void) arg;
 }
 
-enum mgos_app_init_result mgos_app_init(void) {
-  struct mg_connection *c = mg_bind(mgos_get_mgr(), "udp://:53", ev_handler, 0);
-  mg_set_protocol_dns(c);
+enum mgos_app_init_result mgos_app_init(void) 
+{
+#ifdef LED_PIN
+  mgos_gpio_setup_output(LED_PIN, 0);
+#endif
+  mgos_set_timer(1000 /* ms */, MGOS_TIMER_REPEAT, timer_cb, NULL);
   return MGOS_APP_INIT_SUCCESS;
 }

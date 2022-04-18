@@ -1,7 +1,7 @@
 /* clang-format off */
 /*
  * Generated file - do not edit.
- * Command: /mongoose-os/tools/mgos_gen_config.py --c_name=mgos_ro_vars --c_global_name=mgos_sys_ro_vars --dest_dir=/home/dave/Documents/Mos-Devices/mos-base/build/gen/ /mongoose-os/src/mgos_ro_vars_schema.yaml
+ * Command: /mongoose-os/tools/mgos_gen_config.py --c_name=mgos_ro_vars --c_global_name=mgos_sys_ro_vars --dest_dir=/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/build/gen/ /mongoose-os/src/mgos_ro_vars_schema.yaml
  */
 
 #pragma once

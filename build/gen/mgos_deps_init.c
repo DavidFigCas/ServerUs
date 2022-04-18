@@ -14,14 +14,16 @@ extern bool mgos_vfs_dev_part_init(void);
 extern bool mgos_vfs_fs_lfs_init(void);
 extern bool mgos_vfs_fs_spiffs_init(void);
 extern bool mgos_core_init(void);
-extern bool mgos_wifi_init(void);
-extern bool mgos_http_server_init(void);
 extern bool mgos_mbedtls_init(void);
+extern bool mgos_mjs_init(void);
+extern bool mgos_mqtt_init(void);
 extern bool mgos_rpc_common_init(void);
+extern bool mgos_rpc_mqtt_init(void);
 extern bool mgos_rpc_service_config_init(void);
 extern bool mgos_rpc_service_fs_init(void);
+extern bool mgos_rpc_service_gpio_init(void);
 extern bool mgos_rpc_uart_init(void);
-extern bool mgos_rpc_ws_init(void);
+extern bool mgos_wifi_init(void);
 
 #ifndef MGOS_LIB_INFO_VERSION
 struct mgos_lib_info {
@@ -51,17 +53,20 @@ const struct mgos_lib_info mgos_libs_info[] = {
     // "core". deps: [ "mongoose" "vfs-common" "vfs-dev-part" "vfs-fs-lfs" "vfs-fs-spiffs" ]
     {.name = "core", .version = "1.0", .init = mgos_core_init},
 
-    // "wifi". deps: [ "core" ]
-    {.name = "wifi", .version = "1.0", .init = mgos_wifi_init},
-
-    // "http-server". deps: [ "core" "wifi" ]
-    {.name = "http-server", .version = "1.0", .init = mgos_http_server_init},
-
     // "mbedtls". deps: [ ]
     {.name = "mbedtls", .version = "2.16.6-cesanta1", .init = mgos_mbedtls_init},
 
-    // "rpc-common". deps: [ "core" "http-server" "mongoose" ]
+    // "mjs". deps: [ "core" ]
+    {.name = "mjs", .version = "1.0", .init = mgos_mjs_init},
+
+    // "mqtt". deps: [ "core" ]
+    {.name = "mqtt", .version = "1.0", .init = mgos_mqtt_init},
+
+    // "rpc-common". deps: [ "core" "mongoose" ]
     {.name = "rpc-common", .version = "1.0", .init = mgos_rpc_common_init},
+
+    // "rpc-mqtt". deps: [ "core" "mqtt" "rpc-common" ]
+    {.name = "rpc-mqtt", .version = "1.0", .init = mgos_rpc_mqtt_init},
 
     // "rpc-service-config". deps: [ "core" "rpc-common" ]
     {.name = "rpc-service-config", .version = "1.0", .init = mgos_rpc_service_config_init},
@@ -69,11 +74,14 @@ const struct mgos_lib_info mgos_libs_info[] = {
     // "rpc-service-fs". deps: [ "core" "rpc-common" "vfs-common" ]
     {.name = "rpc-service-fs", .version = "1.0", .init = mgos_rpc_service_fs_init},
 
+    // "rpc-service-gpio". deps: [ "core" "rpc-common" ]
+    {.name = "rpc-service-gpio", .version = "1.0", .init = mgos_rpc_service_gpio_init},
+
     // "rpc-uart". deps: [ "core" "rpc-common" ]
     {.name = "rpc-uart", .version = "1.0", .init = mgos_rpc_uart_init},
 
-    // "rpc-ws". deps: [ "core" "http-server" "rpc-common" ]
-    {.name = "rpc-ws", .version = "1.0", .init = mgos_rpc_ws_init},
+    // "wifi". deps: [ "core" ]
+    {.name = "wifi", .version = "1.0", .init = mgos_wifi_init},
 
     // Last entry.
     {.name = NULL},

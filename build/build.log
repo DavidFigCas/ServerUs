@@ -1,419 +1,419 @@
-Handling lib "zz_boards"...
-Handling lib "wifi"...
+Handling lib "rpc-service-gpio"...
 Handling lib "rpc-service-fs"...
+Handling lib "wifi"...
+Handling lib "rpc-mqtt"...
+rpc-service-gpio: Does not exist, cloning from "https://github.com/mongoose-os-libs/rpc-service-gpio"...
 Handling lib "rpc-uart"...
+rpc-service-fs: Does not exist, cloning from "https://github.com/mongoose-os-libs/rpc-service-fs"...
+wifi: Does not exist, cloning from "https://github.com/mongoose-os-libs/wifi"...
+rpc-mqtt: Does not exist, cloning from "https://github.com/mongoose-os-libs/rpc-mqtt"...
+Handling lib "mqtt"...
 Handling lib "ca-bundle"...
+rpc-uart: Does not exist, cloning from "https://github.com/mongoose-os-libs/rpc-uart"...
+mqtt: Does not exist, cloning from "https://github.com/mongoose-os-libs/mqtt"...
 Handling lib "rpc-service-config"...
-Handling lib "http-server"...
-Handling lib "wifi-setup-web-ui"...
+Handling lib "mjs"...
+ca-bundle: Does not exist, cloning from "https://github.com/mongoose-os-libs/ca-bundle"...
 Handling lib "core"...
-/home/dave/Documents/Mos-Devices/mos-base/deps/wifi exists and is dirty, leaving it intact
-
-/home/dave/Documents/Mos-Devices/mos-base/deps/wifi-setup-web-ui exists and is dirty, leaving it intact
-
-wifi: Hash unchanged at 11a208e7e6df2c47a5b8166a589217157aee9462 (dir "/home/dave/Documents/Mos-Devices/mos-base/deps/wifi")
-wifi: Prepared local dir: "/home/dave/Documents/Mos-Devices/mos-base/deps/wifi"
-wifi-setup-web-ui: Hash unchanged at e7d4fd532f4411e1c0631a201acc3281198e4938 (dir "/home/dave/Documents/Mos-Devices/mos-base/deps/wifi-setup-web-ui")
-wifi-setup-web-ui: Prepared local dir: "/home/dave/Documents/Mos-Devices/mos-base/deps/wifi-setup-web-ui"
-zz_boards: Checking out 2.19.1...
+Handling lib "zz_boards"...
+rpc-service-config: Does not exist, cloning from "https://github.com/mongoose-os-libs/rpc-service-config"...
+mjs: Does not exist, cloning from "https://github.com/mongoose-os-libs/mjs"...
+core: Does not exist, cloning from "https://github.com/mongoose-os-libs/core"...
+zz_boards: Does not exist, cloning from "https://github.com/mongoose-os-libs/boards"...
 rpc-service-fs: Checking out 2.19.1...
-http-server: Checking out 2.19.1...
-ca-bundle: Checking out 2.19.1...
-rpc-uart: Checking out 2.19.1...
-rpc-service-config: Checking out 2.19.1...
-core: Checking out 2.19.1...
-zz_boards: Done, hash 90312821601d8ae5d173829141a4f5057b95c8cb
-http-server: Done, hash eeab41a6aa416bc201d5619a4b1039d30294b2c9
-zz_boards: Hash unchanged at 90312821601d8ae5d173829141a4f5057b95c8cb (dir "/home/dave/Documents/Mos-Devices/mos-base/deps/boards")
-zz_boards: Prepared local dir: "/home/dave/Documents/Mos-Devices/mos-base/deps/boards"
-rpc-service-config: Done, hash b30e187977d8dafcb4297cff60e036855a7ff531
 rpc-service-fs: Done, hash 5dea6ee11e623a0e827a750ee75111d9e15ae1b1
-http-server: Hash unchanged at eeab41a6aa416bc201d5619a4b1039d30294b2c9 (dir "/home/dave/Documents/Mos-Devices/mos-base/deps/http-server")
-http-server: Prepared local dir: "/home/dave/Documents/Mos-Devices/mos-base/deps/http-server"
+rpc-service-fs: Hash is updated:  -> 5dea6ee11e623a0e827a750ee75111d9e15ae1b1
+rpc-service-fs: Prepared local dir: "/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/rpc-service-fs"
+zz_boards: Checking out 2.19.1...
+zz_boards: Done, hash 90312821601d8ae5d173829141a4f5057b95c8cb
+zz_boards: Hash is updated:  -> 90312821601d8ae5d173829141a4f5057b95c8cb
+zz_boards: Prepared local dir: "/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/boards"
+rpc-mqtt: Checking out 2.19.1...
+core: Checking out 2.19.1...
+mjs: Checking out 2.19.1...
+rpc-mqtt: Done, hash bf134e13dd6b41d680b1de92918145f2fe2ace23
+mjs: Done, hash e1076d2d60ec19450716af3c2605e4388e12b873
+mjs: Hash is updated:  -> e1076d2d60ec19450716af3c2605e4388e12b873
 core: Done, hash 98abe4a666879cc237784361441855bc48152462
-core: Hash unchanged at 98abe4a666879cc237784361441855bc48152462 (dir "/home/dave/Documents/Mos-Devices/mos-base/deps/core")
-core: Prepared local dir: "/home/dave/Documents/Mos-Devices/mos-base/deps/core"
-rpc-service-fs: Hash unchanged at 5dea6ee11e623a0e827a750ee75111d9e15ae1b1 (dir "/home/dave/Documents/Mos-Devices/mos-base/deps/rpc-service-fs")
-rpc-service-fs: Prepared local dir: "/home/dave/Documents/Mos-Devices/mos-base/deps/rpc-service-fs"
-ca-bundle: Done, hash 554b6acf2c2b456da2c3f954931d9570e86d162b
+mjs: Prepared local dir: "/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/mjs"
+rpc-mqtt: Hash is updated:  -> bf134e13dd6b41d680b1de92918145f2fe2ace23
+rpc-mqtt: Prepared local dir: "/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/rpc-mqtt"
+core: Hash is updated:  -> 98abe4a666879cc237784361441855bc48152462
+core: Prepared local dir: "/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/core"
+rpc-service-gpio: Checking out 2.19.1...
+rpc-uart: Checking out 2.19.1...
+ca-bundle: Checking out 2.19.1...
+wifi: Checking out 2.19.1...
+rpc-service-config: Checking out 2.19.1...
+rpc-service-gpio: Done, hash 5b6b3e22d095a6786192625e41d7e4a740ef7c24
+rpc-service-gpio: Hash is updated:  -> 5b6b3e22d095a6786192625e41d7e4a740ef7c24
+rpc-service-gpio: Prepared local dir: "/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/rpc-service-gpio"
 rpc-uart: Done, hash 4c68e5d7b3eecb19ccc6128f111a118384ed20b4
-rpc-service-config: Hash unchanged at b30e187977d8dafcb4297cff60e036855a7ff531 (dir "/home/dave/Documents/Mos-Devices/mos-base/deps/rpc-service-config")
-rpc-service-config: Prepared local dir: "/home/dave/Documents/Mos-Devices/mos-base/deps/rpc-service-config"
-rpc-uart: Hash unchanged at 4c68e5d7b3eecb19ccc6128f111a118384ed20b4 (dir "/home/dave/Documents/Mos-Devices/mos-base/deps/rpc-uart")
-ca-bundle: Hash unchanged at 554b6acf2c2b456da2c3f954931d9570e86d162b (dir "/home/dave/Documents/Mos-Devices/mos-base/deps/ca-bundle")
-ca-bundle: Prepared local dir: "/home/dave/Documents/Mos-Devices/mos-base/deps/ca-bundle"
-rpc-uart: Prepared local dir: "/home/dave/Documents/Mos-Devices/mos-base/deps/rpc-uart"
-Handling lib "rpc-ws"...
-rpc-ws: Checking out 2.19.1...
-rpc-ws: Done, hash 45a8cddaf9ed07d25d76266709705ca6d8dbf5bf
-rpc-ws: Hash unchanged at 45a8cddaf9ed07d25d76266709705ca6d8dbf5bf (dir "/home/dave/Documents/Mos-Devices/mos-base/deps/rpc-ws")
-rpc-ws: Prepared local dir: "/home/dave/Documents/Mos-Devices/mos-base/deps/rpc-ws"
+rpc-uart: Hash is updated:  -> 4c68e5d7b3eecb19ccc6128f111a118384ed20b4
+rpc-uart: Prepared local dir: "/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/rpc-uart"
+ca-bundle: Done, hash 554b6acf2c2b456da2c3f954931d9570e86d162b
+ca-bundle: Hash is updated:  -> 554b6acf2c2b456da2c3f954931d9570e86d162b
+ca-bundle: Prepared local dir: "/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/ca-bundle"
+rpc-service-config: Done, hash b30e187977d8dafcb4297cff60e036855a7ff531
+wifi: Done, hash 11a208e7e6df2c47a5b8166a589217157aee9462
+rpc-service-config: Hash is updated:  -> b30e187977d8dafcb4297cff60e036855a7ff531
+rpc-service-config: Prepared local dir: "/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/rpc-service-config"
+wifi: Hash is updated:  -> 11a208e7e6df2c47a5b8166a589217157aee9462
+wifi: Prepared local dir: "/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/wifi"
+mqtt: Checking out 2.19.1...
+mqtt: Done, hash 2b43e81e4d063c06210f7cd5cfb43b24dbb57658
+mqtt: Hash is updated:  -> 2b43e81e4d063c06210f7cd5cfb43b24dbb57658
+mqtt: Prepared local dir: "/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/mqtt"
+Handling lib "vfs-common"...
+Handling lib "rpc-common"...
+vfs-common: Does not exist, cloning from "https://github.com/mongoose-os-libs/vfs-common"...
+rpc-common: Does not exist, cloning from "https://github.com/mongoose-os-libs/rpc-common"...
+vfs-common: Checking out 2.19.1...
+vfs-common: Done, hash df19c4e68e7f0dddde27e9024f3168e30ab03c3d
+vfs-common: Hash is updated:  -> df19c4e68e7f0dddde27e9024f3168e30ab03c3d
+vfs-common: Prepared local dir: "/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/vfs-common"
+rpc-common: Checking out 2.19.1...
+rpc-common: Done, hash f948357dde68e67bcf8347b9a9a49468c6ee5c4c
+rpc-common: Hash is updated:  -> f948357dde68e67bcf8347b9a9a49468c6ee5c4c
+rpc-common: Prepared local dir: "/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/rpc-common"
 Handling lib "mongoose"...
+mongoose: Does not exist, cloning from "https://github.com/mongoose-os-libs/mongoose"...
 mongoose: Checking out 2.19.1...
 mongoose: Done, hash be8cbe06ddacb4539d43c1290b1326c399c1ed7d
-mongoose: Hash unchanged at be8cbe06ddacb4539d43c1290b1326c399c1ed7d (dir "/home/dave/Documents/Mos-Devices/mos-base/deps/mongoose")
-mongoose: Prepared local dir: "/home/dave/Documents/Mos-Devices/mos-base/deps/mongoose"
-Handling lib "rpc-common"...
-Handling lib "vfs-common"...
-vfs-common: Checking out 2.19.1...
-rpc-common: Checking out 2.19.1...
-vfs-common: Done, hash df19c4e68e7f0dddde27e9024f3168e30ab03c3d
-vfs-common: Hash unchanged at df19c4e68e7f0dddde27e9024f3168e30ab03c3d (dir "/home/dave/Documents/Mos-Devices/mos-base/deps/vfs-common")
-vfs-common: Prepared local dir: "/home/dave/Documents/Mos-Devices/mos-base/deps/vfs-common"
-rpc-common: Done, hash f948357dde68e67bcf8347b9a9a49468c6ee5c4c
-rpc-common: Hash unchanged at f948357dde68e67bcf8347b9a9a49468c6ee5c4c (dir "/home/dave/Documents/Mos-Devices/mos-base/deps/rpc-common")
-rpc-common: Prepared local dir: "/home/dave/Documents/Mos-Devices/mos-base/deps/rpc-common"
+mongoose: Hash is updated:  -> be8cbe06ddacb4539d43c1290b1326c399c1ed7d
+mongoose: Prepared local dir: "/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/mongoose"
 Handling lib "mbedtls"...
+mbedtls: Does not exist, cloning from "https://github.com/mongoose-os-libs/mbedtls"...
 mbedtls: Checking out 2.19.1...
 mbedtls: Done, hash 8216c1a8babe86b04f2930fa00217e440ed9624b
-mbedtls: Hash unchanged at 8216c1a8babe86b04f2930fa00217e440ed9624b (dir "/home/dave/Documents/Mos-Devices/mos-base/deps/mbedtls")
-mbedtls: Prepared local dir: "/home/dave/Documents/Mos-Devices/mos-base/deps/mbedtls"
-Handling lib "vfs-dev-part"...
+mbedtls: Hash is updated:  -> 8216c1a8babe86b04f2930fa00217e440ed9624b
+mbedtls: Prepared local dir: "/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/mbedtls"
 Handling lib "vfs-fs-lfs"...
+Handling lib "vfs-dev-part"...
 Handling lib "vfs-fs-spiffs"...
-vfs-fs-lfs: Checking out 2.19.1...
+vfs-fs-lfs: Does not exist, cloning from "https://github.com/mongoose-os-libs/vfs-fs-lfs"...
+vfs-dev-part: Does not exist, cloning from "https://github.com/mongoose-os-libs/vfs-dev-part"...
+vfs-fs-spiffs: Does not exist, cloning from "https://github.com/mongoose-os-libs/vfs-fs-spiffs"...
 vfs-dev-part: Checking out 2.19.1...
-vfs-fs-spiffs: Checking out 2.19.1...
 vfs-dev-part: Done, hash 868b0ea6d60d2da53cd8a416c43fcdf48c440aa0
-vfs-fs-lfs: Done, hash 13857635705bd936a60ec98c2b1965656daa0bf8
-vfs-dev-part: Hash unchanged at 868b0ea6d60d2da53cd8a416c43fcdf48c440aa0 (dir "/home/dave/Documents/Mos-Devices/mos-base/deps/vfs-dev-part")
-vfs-dev-part: Prepared local dir: "/home/dave/Documents/Mos-Devices/mos-base/deps/vfs-dev-part"
-vfs-fs-lfs: Hash unchanged at 13857635705bd936a60ec98c2b1965656daa0bf8 (dir "/home/dave/Documents/Mos-Devices/mos-base/deps/vfs-fs-lfs")
-vfs-fs-lfs: Prepared local dir: "/home/dave/Documents/Mos-Devices/mos-base/deps/vfs-fs-lfs"
+vfs-dev-part: Hash is updated:  -> 868b0ea6d60d2da53cd8a416c43fcdf48c440aa0
+vfs-dev-part: Prepared local dir: "/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/vfs-dev-part"
+vfs-fs-spiffs: Checking out 2.19.1...
 vfs-fs-spiffs: Done, hash 8317dc59356147918d15cb3258e2083cf20f4e3e
-vfs-fs-spiffs: Hash unchanged at 8317dc59356147918d15cb3258e2083cf20f4e3e (dir "/home/dave/Documents/Mos-Devices/mos-base/deps/vfs-fs-spiffs")
-vfs-fs-spiffs: Prepared local dir: "/home/dave/Documents/Mos-Devices/mos-base/deps/vfs-fs-spiffs"
+vfs-fs-spiffs: Hash is updated:  -> 8317dc59356147918d15cb3258e2083cf20f4e3e
+vfs-fs-spiffs: Prepared local dir: "/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/vfs-fs-spiffs"
+vfs-fs-lfs: Checking out 2.19.1...
+vfs-fs-lfs: Done, hash 13857635705bd936a60ec98c2b1965656daa0bf8
+vfs-fs-lfs: Hash is updated:  -> 13857635705bd936a60ec98c2b1965656daa0bf8
+vfs-fs-lfs: Prepared local dir: "/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/vfs-fs-lfs"
+The flag --module is not given for the module "mjs_module", going to use the repository
+mjs_module: Does not exist, cloning from "https://github.com/cesanta/mjs"...
+mjs_module: Checking out 2.19.1...
+mjs_module: Done, hash 4c870e584d2b2a538abcee5307c498cc37e7ef9d
 The flag --module is not given for the module "mbedtls_module", going to use the repository
+mbedtls_module: Does not exist, cloning from "https://github.com/mongoose-os/mbedtls"...
 mbedtls_module: Checking out 2.16.6-cesanta1...
 mbedtls_module: Done, hash 1e5cc8512a64afaa15f4adc7b8c91581e252e087
 The flag --repo is not given, going to use mongoose-os repository
+mongoose-os: Does not exist, cloning from "https://github.com/cesanta/mongoose-os"...
 mongoose-os: Checking out 2.19.1...
 mongoose-os: Done, hash d52032f9b27836ec0ec00c6fc5cb49403e08c7cf
-Prebuilt binary for "mongoose" already exists at "/home/dave/Documents/Mos-Devices/mos-base/build/objs/libmongoose-esp8266-2.19.1.a"
-== Manifest has changed, forcing a clean rebuild...
-Handling lib "zz_boards"...
-Handling lib "http-server"...
-Handling lib "rpc-service-config"...
-Handling lib "ca-bundle"...
-Handling lib "rpc-uart"...
-Handling lib "wifi"...
-Handling lib "core"...
-Handling lib "wifi-setup-web-ui"...
-Handling lib "rpc-service-fs"...
-/home/dave/Documents/Mos-Devices/mos-base/deps/wifi exists and is dirty, leaving it intact
-
-/home/dave/Documents/Mos-Devices/mos-base/deps/wifi-setup-web-ui exists and is dirty, leaving it intact
-
-wifi: Hash unchanged at 11a208e7e6df2c47a5b8166a589217157aee9462 (dir "/home/dave/Documents/Mos-Devices/mos-base/deps/wifi")
-wifi: Prepared local dir: "/home/dave/Documents/Mos-Devices/mos-base/deps/wifi"
-wifi-setup-web-ui: Hash unchanged at e7d4fd532f4411e1c0631a201acc3281198e4938 (dir "/home/dave/Documents/Mos-Devices/mos-base/deps/wifi-setup-web-ui")
-wifi-setup-web-ui: Prepared local dir: "/home/dave/Documents/Mos-Devices/mos-base/deps/wifi-setup-web-ui"
-zz_boards: Checking out 2.19.1...
-http-server: Checking out 2.19.1...
-rpc-uart: Checking out 2.19.1...
-ca-bundle: Checking out 2.19.1...
-core: Checking out 2.19.1...
-zz_boards: Done, hash 90312821601d8ae5d173829141a4f5057b95c8cb
-rpc-service-fs: Checking out 2.19.1...
-zz_boards: Hash unchanged at 90312821601d8ae5d173829141a4f5057b95c8cb (dir "/home/dave/Documents/Mos-Devices/mos-base/deps/boards")
-zz_boards: Prepared local dir: "/home/dave/Documents/Mos-Devices/mos-base/deps/boards"
-rpc-service-config: Checking out 2.19.1...
-rpc-uart: Done, hash 4c68e5d7b3eecb19ccc6128f111a118384ed20b4
-rpc-uart: Hash unchanged at 4c68e5d7b3eecb19ccc6128f111a118384ed20b4 (dir "/home/dave/Documents/Mos-Devices/mos-base/deps/rpc-uart")
-rpc-uart: Prepared local dir: "/home/dave/Documents/Mos-Devices/mos-base/deps/rpc-uart"
-http-server: Done, hash eeab41a6aa416bc201d5619a4b1039d30294b2c9
-core: Done, hash 98abe4a666879cc237784361441855bc48152462
-ca-bundle: Done, hash 554b6acf2c2b456da2c3f954931d9570e86d162b
-rpc-service-config: Done, hash b30e187977d8dafcb4297cff60e036855a7ff531
-rpc-service-fs: Done, hash 5dea6ee11e623a0e827a750ee75111d9e15ae1b1
-http-server: Hash unchanged at eeab41a6aa416bc201d5619a4b1039d30294b2c9 (dir "/home/dave/Documents/Mos-Devices/mos-base/deps/http-server")
-http-server: Prepared local dir: "/home/dave/Documents/Mos-Devices/mos-base/deps/http-server"
-core: Hash unchanged at 98abe4a666879cc237784361441855bc48152462 (dir "/home/dave/Documents/Mos-Devices/mos-base/deps/core")
-core: Prepared local dir: "/home/dave/Documents/Mos-Devices/mos-base/deps/core"
-rpc-service-fs: Hash unchanged at 5dea6ee11e623a0e827a750ee75111d9e15ae1b1 (dir "/home/dave/Documents/Mos-Devices/mos-base/deps/rpc-service-fs")
-rpc-service-fs: Prepared local dir: "/home/dave/Documents/Mos-Devices/mos-base/deps/rpc-service-fs"
-rpc-service-config: Hash unchanged at b30e187977d8dafcb4297cff60e036855a7ff531 (dir "/home/dave/Documents/Mos-Devices/mos-base/deps/rpc-service-config")
-rpc-service-config: Prepared local dir: "/home/dave/Documents/Mos-Devices/mos-base/deps/rpc-service-config"
-ca-bundle: Hash unchanged at 554b6acf2c2b456da2c3f954931d9570e86d162b (dir "/home/dave/Documents/Mos-Devices/mos-base/deps/ca-bundle")
-ca-bundle: Prepared local dir: "/home/dave/Documents/Mos-Devices/mos-base/deps/ca-bundle"
-Handling lib "rpc-ws"...
-rpc-ws: Checking out 2.19.1...
-rpc-ws: Done, hash 45a8cddaf9ed07d25d76266709705ca6d8dbf5bf
-rpc-ws: Hash unchanged at 45a8cddaf9ed07d25d76266709705ca6d8dbf5bf (dir "/home/dave/Documents/Mos-Devices/mos-base/deps/rpc-ws")
-rpc-ws: Prepared local dir: "/home/dave/Documents/Mos-Devices/mos-base/deps/rpc-ws"
-Handling lib "rpc-common"...
-rpc-common: Checking out 2.19.1...
-rpc-common: Done, hash f948357dde68e67bcf8347b9a9a49468c6ee5c4c
-rpc-common: Hash unchanged at f948357dde68e67bcf8347b9a9a49468c6ee5c4c (dir "/home/dave/Documents/Mos-Devices/mos-base/deps/rpc-common")
-rpc-common: Prepared local dir: "/home/dave/Documents/Mos-Devices/mos-base/deps/rpc-common"
-Handling lib "mongoose"...
-mongoose: Checking out 2.19.1...
-mongoose: Done, hash be8cbe06ddacb4539d43c1290b1326c399c1ed7d
-mongoose: Hash unchanged at be8cbe06ddacb4539d43c1290b1326c399c1ed7d (dir "/home/dave/Documents/Mos-Devices/mos-base/deps/mongoose")
-mongoose: Prepared local dir: "/home/dave/Documents/Mos-Devices/mos-base/deps/mongoose"
-Handling lib "vfs-common"...
-vfs-common: Checking out 2.19.1...
-vfs-common: Done, hash df19c4e68e7f0dddde27e9024f3168e30ab03c3d
-vfs-common: Hash unchanged at df19c4e68e7f0dddde27e9024f3168e30ab03c3d (dir "/home/dave/Documents/Mos-Devices/mos-base/deps/vfs-common")
-vfs-common: Prepared local dir: "/home/dave/Documents/Mos-Devices/mos-base/deps/vfs-common"
-Handling lib "mbedtls"...
-mbedtls: Checking out 2.19.1...
-mbedtls: Done, hash 8216c1a8babe86b04f2930fa00217e440ed9624b
-mbedtls: Hash unchanged at 8216c1a8babe86b04f2930fa00217e440ed9624b (dir "/home/dave/Documents/Mos-Devices/mos-base/deps/mbedtls")
-mbedtls: Prepared local dir: "/home/dave/Documents/Mos-Devices/mos-base/deps/mbedtls"
-Handling lib "vfs-dev-part"...
-Handling lib "vfs-fs-lfs"...
-Handling lib "vfs-fs-spiffs"...
-vfs-fs-lfs: Checking out 2.19.1...
-vfs-dev-part: Checking out 2.19.1...
-vfs-fs-spiffs: Checking out 2.19.1...
-vfs-fs-lfs: Done, hash 13857635705bd936a60ec98c2b1965656daa0bf8
-vfs-fs-lfs: Hash unchanged at 13857635705bd936a60ec98c2b1965656daa0bf8 (dir "/home/dave/Documents/Mos-Devices/mos-base/deps/vfs-fs-lfs")
-vfs-fs-lfs: Prepared local dir: "/home/dave/Documents/Mos-Devices/mos-base/deps/vfs-fs-lfs"
-vfs-dev-part: Done, hash 868b0ea6d60d2da53cd8a416c43fcdf48c440aa0
-vfs-fs-spiffs: Done, hash 8317dc59356147918d15cb3258e2083cf20f4e3e
-vfs-dev-part: Hash unchanged at 868b0ea6d60d2da53cd8a416c43fcdf48c440aa0 (dir "/home/dave/Documents/Mos-Devices/mos-base/deps/vfs-dev-part")
-vfs-dev-part: Prepared local dir: "/home/dave/Documents/Mos-Devices/mos-base/deps/vfs-dev-part"
-vfs-fs-spiffs: Hash unchanged at 8317dc59356147918d15cb3258e2083cf20f4e3e (dir "/home/dave/Documents/Mos-Devices/mos-base/deps/vfs-fs-spiffs")
-vfs-fs-spiffs: Prepared local dir: "/home/dave/Documents/Mos-Devices/mos-base/deps/vfs-fs-spiffs"
-The flag --module is not given for the module "mbedtls_module", going to use the repository
-mbedtls_module: Checking out 2.16.6-cesanta1...
-mbedtls_module: Done, hash 1e5cc8512a64afaa15f4adc7b8c91581e252e087
-The flag --repo is not given, going to use mongoose-os repository
-mongoose-os: Checking out 2.19.1...
-mongoose-os: Done, hash d52032f9b27836ec0ec00c6fc5cb49403e08c7cf
-Successfully fetched prebuilt binary for "mongoose" to "/home/dave/Documents/Mos-Devices/mos-base/build/objs/libmongoose-esp8266-2.19.1.a"
-Sources: [/home/dave/Documents/Mos-Devices/mos-base/src/main.c /home/dave/Documents/Mos-Devices/mos-base/build/gen/mgos_deps_init.c /home/dave/Documents/Mos-Devices/mos-base/deps/mbedtls/src/mgos_mbedtls.c /home/dave/Documents/Mos-Devices/mos-base/deps/mbedtls/src/esp8266/esp_aes.c /home/dave/Documents/Mos-Devices/mos-base/deps/mbedtls/src/esp8266/esp_md5.c /home/dave/Documents/Mos-Devices/mos-base/deps/mbedtls/src/esp8266/esp_sha1.c /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/aes.c /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/aes_atca.c /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/aesni.c /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/arc4.c /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/aria.c /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/asn1parse.c /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/asn1write.c /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/base64.c /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/bignum.c /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/blowfish.c /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/camellia.c /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/ccm.c /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/certs.c /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/chacha20.c /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/chachapoly.c /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/cipher.c /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/cipher_wrap.c /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/cmac.c /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/ctr_drbg.c /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/debug.c /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/des.c /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/dhm.c /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/ecdh.c /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/ecdsa.c /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/ecjpake.c /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/ecp.c /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/ecp_atca.c /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/ecp_curves.c /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/entropy.c /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/entropy_poll.c /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/error.c /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/gcm.c /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/havege.c /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/hkdf.c /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/hmac_drbg.c /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/md.c /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/md2.c /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/md4.c /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/md5.c /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/md_wrap.c /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/memory_buffer_alloc.c /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/net_sockets.c /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/nist_kw.c /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/oid.c /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/padlock.c /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/pem.c /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/pk.c /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/pk_wrap.c /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/pkcs11.c /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/pkcs12.c /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/pkcs5.c /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/pkparse.c /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/pkwrite.c /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/platform.c /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/platform_util.c /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/poly1305.c /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/ripemd160.c /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/rsa.c /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/rsa_internal.c /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/sha1.c /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/sha256.c /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/sha512.c /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/ssl_cache.c /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/ssl_ciphersuites.c /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/ssl_cli.c /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/ssl_cookie.c /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/ssl_srv.c /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/ssl_ticket.c /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/ssl_tls.c /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/threading.c /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/timing.c /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/version.c /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/version_features.c /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/x509.c /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/x509_create.c /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/x509_crl.c /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/x509_crt.c /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/x509_csr.c /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/x509write_crt.c /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/x509write_csr.c /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/xtea.c /home/dave/Documents/Mos-Devices/mos-base/deps/vfs-common/src/mgos_vfs.c /home/dave/Documents/Mos-Devices/mos-base/deps/vfs-common/src/mgos_vfs_dev.c /home/dave/Documents/Mos-Devices/mos-base/deps/vfs-common/src/mgos_vfs_internal.c /home/dave/Documents/Mos-Devices/mos-base/deps/vfs-common/src/esp8266/esp_fs.c /home/dave/Documents/Mos-Devices/mos-base/deps/vfs-common/src/esp8266/esp_vfs_dev_sysflash.c /home/dave/Documents/Mos-Devices/mos-base/deps/vfs-dev-part/src/mgos_vfs_dev_part.c /home/dave/Documents/Mos-Devices/mos-base/deps/vfs-fs-lfs/src/mgos_vfs_lfs.c /home/dave/Documents/Mos-Devices/mos-base/deps/vfs-fs-lfs/littlefs/lfs.c /home/dave/Documents/Mos-Devices/mos-base/deps/vfs-fs-lfs/littlefs/lfs_util.c /home/dave/Documents/Mos-Devices/mos-base/deps/vfs-fs-lfs/littlefs1/lfs1.c /home/dave/Documents/Mos-Devices/mos-base/deps/vfs-fs-lfs/littlefs1/lfs1_util.c /home/dave/Documents/Mos-Devices/mos-base/deps/vfs-fs-spiffs/src/mgos_vfs_fs_spiffs.c /home/dave/Documents/Mos-Devices/mos-base/deps/vfs-fs-spiffs/src/spiffs/spiffs_cache.c /home/dave/Documents/Mos-Devices/mos-base/deps/vfs-fs-spiffs/src/spiffs/spiffs_check.c /home/dave/Documents/Mos-Devices/mos-base/deps/vfs-fs-spiffs/src/spiffs/spiffs_gc.c /home/dave/Documents/Mos-Devices/mos-base/deps/vfs-fs-spiffs/src/spiffs/spiffs_hydrogen.c /home/dave/Documents/Mos-Devices/mos-base/deps/vfs-fs-spiffs/src/spiffs/spiffs_nucleus.c /home/dave/Documents/Mos-Devices/mos-base/deps/core/src/mgos_core.c /home/dave/Documents/Mos-Devices/mos-base/deps/core/src/esp8266/esp_rboot.c /home/dave/Documents/Mos-Devices/mos-base/deps/http-server/src/mgos_http_server.c /home/dave/Documents/Mos-Devices/mos-base/deps/rpc-common/src/mg_rpc.c /home/dave/Documents/Mos-Devices/mos-base/deps/rpc-common/src/mg_rpc_channel.c /home/dave/Documents/Mos-Devices/mos-base/deps/rpc-common/src/mg_rpc_channel_http.c /home/dave/Documents/Mos-Devices/mos-base/deps/rpc-common/src/mgos_rpc.c /home/dave/Documents/Mos-Devices/mos-base/deps/rpc-service-config/src/mgos_service_config.c /home/dave/Documents/Mos-Devices/mos-base/deps/rpc-service-fs/src/mgos_service_fs.c /home/dave/Documents/Mos-Devices/mos-base/deps/rpc-uart/src/mgos_rpc_channel_uart.c /home/dave/Documents/Mos-Devices/mos-base/deps/wifi/src/mgos_wifi.c /home/dave/Documents/Mos-Devices/mos-base/deps/wifi/src/mjs_wifi.c /home/dave/Documents/Mos-Devices/mos-base/deps/wifi/src/esp8266/esp_wifi.c /home/dave/Documents/Mos-Devices/mos-base/deps/rpc-ws/src/mgos_rpc_channel_ws.c /home/dave/Documents/Mos-Devices/mos-base/deps/rpc-ws/src/mgos_rpc_ws.c]
-Include dirs: [/home/dave/Documents/Mos-Devices/mos-base/deps/mbedtls/include /home/dave/Documents/Mos-Devices/mos-base/deps/mbedtls/include/esp8266 /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/include /home/dave/Documents/Mos-Devices/mos-base/deps/vfs-common/include /home/dave/Documents/Mos-Devices/mos-base/deps/vfs-common/include/esp8266 /home/dave/Documents/Mos-Devices/mos-base/deps/mongoose/include /home/dave/Documents/Mos-Devices/mos-base/deps/vfs-dev-part/include /home/dave/Documents/Mos-Devices/mos-base/deps/vfs-fs-lfs/include /home/dave/Documents/Mos-Devices/mos-base/deps/vfs-fs-lfs/littlefs /home/dave/Documents/Mos-Devices/mos-base/deps/vfs-fs-lfs/littlefs1 /home/dave/Documents/Mos-Devices/mos-base/deps/vfs-fs-spiffs/include /home/dave/Documents/Mos-Devices/mos-base/deps/vfs-fs-spiffs/include/spiffs /home/dave/Documents/Mos-Devices/mos-base/deps/vfs-fs-spiffs/include/esp8266 /home/dave/Documents/Mos-Devices/mos-base/deps/core/include /home/dave/Documents/Mos-Devices/mos-base/deps/core/include/esp8266 /home/dave/Documents/Mos-Devices/mos-base/deps/http-server/include /home/dave/Documents/Mos-Devices/mos-base/deps/rpc-common/include /home/dave/Documents/Mos-Devices/mos-base/deps/rpc-service-config/include /home/dave/Documents/Mos-Devices/mos-base/deps/rpc-uart/include /home/dave/Documents/Mos-Devices/mos-base/deps/wifi/include /home/dave/Documents/Mos-Devices/mos-base/deps/wifi/include/esp8266 /home/dave/Documents/Mos-Devices/mos-base/deps/rpc-ws/include]
-Binary libs: [/home/dave/Documents/Mos-Devices/mos-base/build/objs/libmongoose-esp8266-2.19.1.a]
+Successfully fetched prebuilt binary for "mongoose" to "/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/build/objs/libmongoose-esp8266-2.19.1.a"
+Sources: [/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/src/main.c /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/build/gen/mgos_deps_init.c /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/mbedtls/src/mgos_mbedtls.c /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/mbedtls/src/esp8266/esp_aes.c /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/mbedtls/src/esp8266/esp_md5.c /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/mbedtls/src/esp8266/esp_sha1.c /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mbedtls/library/aes.c /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mbedtls/library/aes_atca.c /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mbedtls/library/aesni.c /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mbedtls/library/arc4.c /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mbedtls/library/aria.c /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mbedtls/library/asn1parse.c /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mbedtls/library/asn1write.c /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mbedtls/library/base64.c /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mbedtls/library/bignum.c /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mbedtls/library/blowfish.c /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mbedtls/library/camellia.c /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mbedtls/library/ccm.c /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mbedtls/library/certs.c /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mbedtls/library/chacha20.c /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mbedtls/library/chachapoly.c /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mbedtls/library/cipher.c /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mbedtls/library/cipher_wrap.c /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mbedtls/library/cmac.c /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mbedtls/library/ctr_drbg.c /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mbedtls/library/debug.c /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mbedtls/library/des.c /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mbedtls/library/dhm.c /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mbedtls/library/ecdh.c /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mbedtls/library/ecdsa.c /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mbedtls/library/ecjpake.c /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mbedtls/library/ecp.c /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mbedtls/library/ecp_atca.c /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mbedtls/library/ecp_curves.c /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mbedtls/library/entropy.c /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mbedtls/library/entropy_poll.c /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mbedtls/library/error.c /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mbedtls/library/gcm.c /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mbedtls/library/havege.c /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mbedtls/library/hkdf.c /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mbedtls/library/hmac_drbg.c /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mbedtls/library/md.c /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mbedtls/library/md2.c /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mbedtls/library/md4.c /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mbedtls/library/md5.c /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mbedtls/library/md_wrap.c /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mbedtls/library/memory_buffer_alloc.c /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mbedtls/library/net_sockets.c /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mbedtls/library/nist_kw.c /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mbedtls/library/oid.c /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mbedtls/library/padlock.c /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mbedtls/library/pem.c /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mbedtls/library/pk.c /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mbedtls/library/pk_wrap.c /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mbedtls/library/pkcs11.c /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mbedtls/library/pkcs12.c /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mbedtls/library/pkcs5.c /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mbedtls/library/pkparse.c /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mbedtls/library/pkwrite.c /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mbedtls/library/platform.c /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mbedtls/library/platform_util.c /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mbedtls/library/poly1305.c /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mbedtls/library/ripemd160.c /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mbedtls/library/rsa.c /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mbedtls/library/rsa_internal.c /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mbedtls/library/sha1.c /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mbedtls/library/sha256.c /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mbedtls/library/sha512.c /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mbedtls/library/ssl_cache.c /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mbedtls/library/ssl_ciphersuites.c /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mbedtls/library/ssl_cli.c /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mbedtls/library/ssl_cookie.c /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mbedtls/library/ssl_srv.c /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mbedtls/library/ssl_ticket.c /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mbedtls/library/ssl_tls.c /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mbedtls/library/threading.c /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mbedtls/library/timing.c /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mbedtls/library/version.c /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mbedtls/library/version_features.c /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mbedtls/library/x509.c /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mbedtls/library/x509_create.c /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mbedtls/library/x509_crl.c /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mbedtls/library/x509_crt.c /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mbedtls/library/x509_csr.c /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mbedtls/library/x509write_crt.c /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mbedtls/library/x509write_csr.c /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mbedtls/library/xtea.c /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/vfs-common/src/mgos_vfs.c /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/vfs-common/src/mgos_vfs_dev.c /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/vfs-common/src/mgos_vfs_internal.c /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/vfs-common/src/esp8266/esp_fs.c /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/vfs-common/src/esp8266/esp_vfs_dev_sysflash.c /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/vfs-dev-part/src/mgos_vfs_dev_part.c /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/vfs-fs-lfs/src/mgos_vfs_lfs.c /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/vfs-fs-lfs/littlefs/lfs.c /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/vfs-fs-lfs/littlefs/lfs_util.c /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/vfs-fs-lfs/littlefs1/lfs1.c /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/vfs-fs-lfs/littlefs1/lfs1_util.c /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/vfs-fs-spiffs/src/mgos_vfs_fs_spiffs.c /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/vfs-fs-spiffs/src/spiffs/spiffs_cache.c /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/vfs-fs-spiffs/src/spiffs/spiffs_check.c /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/vfs-fs-spiffs/src/spiffs/spiffs_gc.c /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/vfs-fs-spiffs/src/spiffs/spiffs_hydrogen.c /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/vfs-fs-spiffs/src/spiffs/spiffs_nucleus.c /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/core/src/mgos_core.c /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/core/src/esp8266/esp_rboot.c /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/mjs/src/mos_mjs.c /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mjs/mjs.c /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/mjs/esp8266/src/esp8266_mjs.c /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/mqtt/src/mgos_mqtt.c /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/mqtt/src/mgos_mqtt_conn.c /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/rpc-common/src/mg_rpc.c /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/rpc-common/src/mg_rpc_channel.c /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/rpc-common/src/mg_rpc_channel_http.c /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/rpc-common/src/mgos_rpc.c /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/rpc-mqtt/src/mgos_rpc_channel_mqtt.c /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/rpc-service-config/src/mgos_service_config.c /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/rpc-service-fs/src/mgos_service_fs.c /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/rpc-service-gpio/src/mgos_gpio_service.c /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/rpc-uart/src/mgos_rpc_channel_uart.c /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/wifi/src/mgos_wifi.c /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/wifi/src/mjs_wifi.c /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/wifi/src/esp8266/esp_wifi.c]
+Include dirs: [/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/mbedtls/include /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/mbedtls/include/esp8266 /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mbedtls/include /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/vfs-common/include /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/vfs-common/include/esp8266 /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/mongoose/include /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/vfs-dev-part/include /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/vfs-fs-lfs/include /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/vfs-fs-lfs/littlefs /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/vfs-fs-lfs/littlefs1 /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/vfs-fs-spiffs/include /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/vfs-fs-spiffs/include/spiffs /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/vfs-fs-spiffs/include/esp8266 /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/core/include /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/core/include/esp8266 /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/mjs/include /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/mqtt/include /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/rpc-common/include /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/rpc-mqtt/include /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/rpc-service-config/include /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/rpc-service-gpio/include /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/rpc-uart/include /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/wifi/include /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/wifi/include/esp8266]
+Binary libs: [/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/build/objs/libmongoose-esp8266-2.19.1.a]
 Building...
-mount from "/home/dave/Documents/Mos-Devices/mos-base" to "/app"
-mount from "/home/dave/Documents/Mos-Devices/mos-base/deps/modules/mongoose-os" to "/mongoose-os"
-mount from "/home/dave/Documents/Mos-Devices/mos-base/deps/modules/mongoose-os" to "/home/dave/Documents/Mos-Devices/mos-base/deps/modules/mongoose-os"
-mount from "/home/dave/Documents/Mos-Devices/mos-base/build" to "/home/dave/Documents/Mos-Devices/mos-base/build"
-mount from "/home/dave/Documents/Mos-Devices/mos-base/src" to "/home/dave/Documents/Mos-Devices/mos-base/src"
-mount from "/home/dave/Documents/Mos-Devices/mos-base/build/gen" to "/home/dave/Documents/Mos-Devices/mos-base/build/gen"
-mount from "/home/dave/Documents/Mos-Devices/mos-base/deps/mbedtls/src" to "/home/dave/Documents/Mos-Devices/mos-base/deps/mbedtls/src"
-mount from "/home/dave/Documents/Mos-Devices/mos-base/deps/mbedtls/src/esp8266" to "/home/dave/Documents/Mos-Devices/mos-base/deps/mbedtls/src/esp8266"
-mount from "/home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library" to "/home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library"
-mount from "/home/dave/Documents/Mos-Devices/mos-base/deps/vfs-common/src" to "/home/dave/Documents/Mos-Devices/mos-base/deps/vfs-common/src"
-mount from "/home/dave/Documents/Mos-Devices/mos-base/deps/vfs-common/src/esp8266" to "/home/dave/Documents/Mos-Devices/mos-base/deps/vfs-common/src/esp8266"
-mount from "/home/dave/Documents/Mos-Devices/mos-base/deps/vfs-dev-part/src" to "/home/dave/Documents/Mos-Devices/mos-base/deps/vfs-dev-part/src"
-mount from "/home/dave/Documents/Mos-Devices/mos-base/deps/vfs-fs-lfs/src" to "/home/dave/Documents/Mos-Devices/mos-base/deps/vfs-fs-lfs/src"
-mount from "/home/dave/Documents/Mos-Devices/mos-base/deps/vfs-fs-lfs/littlefs" to "/home/dave/Documents/Mos-Devices/mos-base/deps/vfs-fs-lfs/littlefs"
-mount from "/home/dave/Documents/Mos-Devices/mos-base/deps/vfs-fs-lfs/littlefs1" to "/home/dave/Documents/Mos-Devices/mos-base/deps/vfs-fs-lfs/littlefs1"
-mount from "/home/dave/Documents/Mos-Devices/mos-base/deps/vfs-fs-spiffs/src" to "/home/dave/Documents/Mos-Devices/mos-base/deps/vfs-fs-spiffs/src"
-mount from "/home/dave/Documents/Mos-Devices/mos-base/deps/vfs-fs-spiffs/src/spiffs" to "/home/dave/Documents/Mos-Devices/mos-base/deps/vfs-fs-spiffs/src/spiffs"
-mount from "/home/dave/Documents/Mos-Devices/mos-base/deps/core/src" to "/home/dave/Documents/Mos-Devices/mos-base/deps/core/src"
-mount from "/home/dave/Documents/Mos-Devices/mos-base/deps/core/src/esp8266" to "/home/dave/Documents/Mos-Devices/mos-base/deps/core/src/esp8266"
-mount from "/home/dave/Documents/Mos-Devices/mos-base/deps/http-server/src" to "/home/dave/Documents/Mos-Devices/mos-base/deps/http-server/src"
-mount from "/home/dave/Documents/Mos-Devices/mos-base/deps/rpc-common/src" to "/home/dave/Documents/Mos-Devices/mos-base/deps/rpc-common/src"
-mount from "/home/dave/Documents/Mos-Devices/mos-base/deps/rpc-service-config/src" to "/home/dave/Documents/Mos-Devices/mos-base/deps/rpc-service-config/src"
-mount from "/home/dave/Documents/Mos-Devices/mos-base/deps/rpc-service-fs/src" to "/home/dave/Documents/Mos-Devices/mos-base/deps/rpc-service-fs/src"
-mount from "/home/dave/Documents/Mos-Devices/mos-base/deps/rpc-uart/src" to "/home/dave/Documents/Mos-Devices/mos-base/deps/rpc-uart/src"
-mount from "/home/dave/Documents/Mos-Devices/mos-base/deps/wifi/src" to "/home/dave/Documents/Mos-Devices/mos-base/deps/wifi/src"
-mount from "/home/dave/Documents/Mos-Devices/mos-base/deps/wifi/src/esp8266" to "/home/dave/Documents/Mos-Devices/mos-base/deps/wifi/src/esp8266"
-mount from "/home/dave/Documents/Mos-Devices/mos-base/deps/rpc-ws/src" to "/home/dave/Documents/Mos-Devices/mos-base/deps/rpc-ws/src"
-mount from "/home/dave/Documents/Mos-Devices/mos-base/deps/mbedtls/include" to "/home/dave/Documents/Mos-Devices/mos-base/deps/mbedtls/include"
-mount from "/home/dave/Documents/Mos-Devices/mos-base/deps/mbedtls/include/esp8266" to "/home/dave/Documents/Mos-Devices/mos-base/deps/mbedtls/include/esp8266"
-mount from "/home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/include" to "/home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/include"
-mount from "/home/dave/Documents/Mos-Devices/mos-base/deps/vfs-common/include" to "/home/dave/Documents/Mos-Devices/mos-base/deps/vfs-common/include"
-mount from "/home/dave/Documents/Mos-Devices/mos-base/deps/vfs-common/include/esp8266" to "/home/dave/Documents/Mos-Devices/mos-base/deps/vfs-common/include/esp8266"
-mount from "/home/dave/Documents/Mos-Devices/mos-base/deps/mongoose/include" to "/home/dave/Documents/Mos-Devices/mos-base/deps/mongoose/include"
-mount from "/home/dave/Documents/Mos-Devices/mos-base/deps/vfs-dev-part/include" to "/home/dave/Documents/Mos-Devices/mos-base/deps/vfs-dev-part/include"
-mount from "/home/dave/Documents/Mos-Devices/mos-base/deps/vfs-fs-lfs/include" to "/home/dave/Documents/Mos-Devices/mos-base/deps/vfs-fs-lfs/include"
-mount from "/home/dave/Documents/Mos-Devices/mos-base/deps/vfs-fs-lfs/littlefs" to "/home/dave/Documents/Mos-Devices/mos-base/deps/vfs-fs-lfs/littlefs"
-mount from "/home/dave/Documents/Mos-Devices/mos-base/deps/vfs-fs-lfs/littlefs1" to "/home/dave/Documents/Mos-Devices/mos-base/deps/vfs-fs-lfs/littlefs1"
-mount from "/home/dave/Documents/Mos-Devices/mos-base/deps/vfs-fs-spiffs/include" to "/home/dave/Documents/Mos-Devices/mos-base/deps/vfs-fs-spiffs/include"
-mount from "/home/dave/Documents/Mos-Devices/mos-base/deps/vfs-fs-spiffs/include/spiffs" to "/home/dave/Documents/Mos-Devices/mos-base/deps/vfs-fs-spiffs/include/spiffs"
-mount from "/home/dave/Documents/Mos-Devices/mos-base/deps/vfs-fs-spiffs/include/esp8266" to "/home/dave/Documents/Mos-Devices/mos-base/deps/vfs-fs-spiffs/include/esp8266"
-mount from "/home/dave/Documents/Mos-Devices/mos-base/deps/core/include" to "/home/dave/Documents/Mos-Devices/mos-base/deps/core/include"
-mount from "/home/dave/Documents/Mos-Devices/mos-base/deps/core/include/esp8266" to "/home/dave/Documents/Mos-Devices/mos-base/deps/core/include/esp8266"
-mount from "/home/dave/Documents/Mos-Devices/mos-base/deps/http-server/include" to "/home/dave/Documents/Mos-Devices/mos-base/deps/http-server/include"
-mount from "/home/dave/Documents/Mos-Devices/mos-base/deps/rpc-common/include" to "/home/dave/Documents/Mos-Devices/mos-base/deps/rpc-common/include"
-mount from "/home/dave/Documents/Mos-Devices/mos-base/deps/rpc-service-config/include" to "/home/dave/Documents/Mos-Devices/mos-base/deps/rpc-service-config/include"
-mount from "/home/dave/Documents/Mos-Devices/mos-base/deps/rpc-uart/include" to "/home/dave/Documents/Mos-Devices/mos-base/deps/rpc-uart/include"
-mount from "/home/dave/Documents/Mos-Devices/mos-base/deps/wifi/include" to "/home/dave/Documents/Mos-Devices/mos-base/deps/wifi/include"
-mount from "/home/dave/Documents/Mos-Devices/mos-base/deps/rpc-ws/include" to "/home/dave/Documents/Mos-Devices/mos-base/deps/rpc-ws/include"
-mount from "/home/dave/Documents/Mos-Devices/mos-base/deps/ca-bundle/fs" to "/home/dave/Documents/Mos-Devices/mos-base/deps/ca-bundle/fs"
-mount from "/home/dave/Documents/Mos-Devices/mos-base/deps/wifi-setup-web-ui/fs" to "/home/dave/Documents/Mos-Devices/mos-base/deps/wifi-setup-web-ui/fs"
-mount from "/home/dave/Documents/Mos-Devices/mos-base/fs" to "/home/dave/Documents/Mos-Devices/mos-base/fs"
-mount from "/home/dave/Documents/Mos-Devices/mos-base/build/objs" to "/home/dave/Documents/Mos-Devices/mos-base/build/objs"
-mount from "/home/dave/Documents/Mos-Devices/mos-base/build/gen" to "/home/dave/Documents/Mos-Devices/mos-base/build/gen"
-Docker arguments: run --name mos_build_2021-07-10T13-50-48-00_210267479237062772 --rm -i -v /home/dave/Documents/Mos-Devices/mos-base:/app -v /home/dave/Documents/Mos-Devices/mos-base/deps/vfs-fs-spiffs/src:/home/dave/Documents/Mos-Devices/mos-base/deps/vfs-fs-spiffs/src -v /home/dave/Documents/Mos-Devices/mos-base/deps/rpc-uart/src:/home/dave/Documents/Mos-Devices/mos-base/deps/rpc-uart/src -v /home/dave/Documents/Mos-Devices/mos-base/deps/ca-bundle/fs:/home/dave/Documents/Mos-Devices/mos-base/deps/ca-bundle/fs -v /home/dave/Documents/Mos-Devices/mos-base/build/objs:/home/dave/Documents/Mos-Devices/mos-base/build/objs -v /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mongoose-os:/mongoose-os -v /home/dave/Documents/Mos-Devices/mos-base/deps/mbedtls/src:/home/dave/Documents/Mos-Devices/mos-base/deps/mbedtls/src -v /home/dave/Documents/Mos-Devices/mos-base/deps/vfs-fs-lfs/littlefs:/home/dave/Documents/Mos-Devices/mos-base/deps/vfs-fs-lfs/littlefs -v /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/include:/home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/include -v /home/dave/Documents/Mos-Devices/mos-base/deps/vfs-common/include/esp8266:/home/dave/Documents/Mos-Devices/mos-base/deps/vfs-common/include/esp8266 -v /home/dave/Documents/Mos-Devices/mos-base/deps/vfs-fs-lfs/include:/home/dave/Documents/Mos-Devices/mos-base/deps/vfs-fs-lfs/include -v /home/dave/Documents/Mos-Devices/mos-base/deps/rpc-service-config/include:/home/dave/Documents/Mos-Devices/mos-base/deps/rpc-service-config/include -v /home/dave/Documents/Mos-Devices/mos-base/deps/vfs-dev-part/include:/home/dave/Documents/Mos-Devices/mos-base/deps/vfs-dev-part/include -v /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mongoose-os:/home/dave/Documents/Mos-Devices/mos-base/deps/modules/mongoose-os -v /home/dave/Documents/Mos-Devices/mos-base/build:/home/dave/Documents/Mos-Devices/mos-base/build -v /home/dave/Documents/Mos-Devices/mos-base/deps/mbedtls/src/esp8266:/home/dave/Documents/Mos-Devices/mos-base/deps/mbedtls/src/esp8266 -v /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library:/home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library -v /home/dave/Documents/Mos-Devices/mos-base/deps/vfs-common/src/esp8266:/home/dave/Documents/Mos-Devices/mos-base/deps/vfs-common/src/esp8266 -v /home/dave/Documents/Mos-Devices/mos-base/deps/vfs-fs-spiffs/src/spiffs:/home/dave/Documents/Mos-Devices/mos-base/deps/vfs-fs-spiffs/src/spiffs -v /home/dave/Documents/Mos-Devices/mos-base/deps/http-server/src:/home/dave/Documents/Mos-Devices/mos-base/deps/http-server/src -v /home/dave/Documents/Mos-Devices/mos-base/deps/rpc-uart/include:/home/dave/Documents/Mos-Devices/mos-base/deps/rpc-uart/include -v /home/dave/Documents/Mos-Devices/mos-base/deps/core/src/esp8266:/home/dave/Documents/Mos-Devices/mos-base/deps/core/src/esp8266 -v /home/dave/Documents/Mos-Devices/mos-base/deps/rpc-service-config/src:/home/dave/Documents/Mos-Devices/mos-base/deps/rpc-service-config/src -v /home/dave/Documents/Mos-Devices/mos-base/deps/rpc-service-fs/src:/home/dave/Documents/Mos-Devices/mos-base/deps/rpc-service-fs/src -v /home/dave/Documents/Mos-Devices/mos-base/deps/vfs-fs-spiffs/include/esp8266:/home/dave/Documents/Mos-Devices/mos-base/deps/vfs-fs-spiffs/include/esp8266 -v /home/dave/Documents/Mos-Devices/mos-base/deps/vfs-dev-part/src:/home/dave/Documents/Mos-Devices/mos-base/deps/vfs-dev-part/src -v /home/dave/Documents/Mos-Devices/mos-base/deps/vfs-fs-lfs/littlefs1:/home/dave/Documents/Mos-Devices/mos-base/deps/vfs-fs-lfs/littlefs1 -v /home/dave/Documents/Mos-Devices/mos-base/deps/rpc-common/include:/home/dave/Documents/Mos-Devices/mos-base/deps/rpc-common/include -v /home/dave/Documents/Mos-Devices/mos-base/deps/mbedtls/include/esp8266:/home/dave/Documents/Mos-Devices/mos-base/deps/mbedtls/include/esp8266 -v /home/dave/Documents/Mos-Devices/mos-base/src:/home/dave/Documents/Mos-Devices/mos-base/src -v /home/dave/Documents/Mos-Devices/mos-base/build/gen:/home/dave/Documents/Mos-Devices/mos-base/build/gen -v /home/dave/Documents/Mos-Devices/mos-base/deps/vfs-common/src:/home/dave/Documents/Mos-Devices/mos-base/deps/vfs-common/src -v /home/dave/Documents/Mos-Devices/mos-base/deps/vfs-fs-lfs/src:/home/dave/Documents/Mos-Devices/mos-base/deps/vfs-fs-lfs/src -v /home/dave/Documents/Mos-Devices/mos-base/deps/core/src:/home/dave/Documents/Mos-Devices/mos-base/deps/core/src -v /home/dave/Documents/Mos-Devices/mos-base/deps/rpc-common/src:/home/dave/Documents/Mos-Devices/mos-base/deps/rpc-common/src -v /home/dave/Documents/Mos-Devices/mos-base/deps/mbedtls/include:/home/dave/Documents/Mos-Devices/mos-base/deps/mbedtls/include -v /home/dave/Documents/Mos-Devices/mos-base/deps/mongoose/include:/home/dave/Documents/Mos-Devices/mos-base/deps/mongoose/include -v /home/dave/Documents/Mos-Devices/mos-base/deps/vfs-fs-spiffs/include/spiffs:/home/dave/Documents/Mos-Devices/mos-base/deps/vfs-fs-spiffs/include/spiffs -v /home/dave/Documents/Mos-Devices/mos-base/deps/core/include:/home/dave/Documents/Mos-Devices/mos-base/deps/core/include -v /home/dave/Documents/Mos-Devices/mos-base/deps/core/include/esp8266:/home/dave/Documents/Mos-Devices/mos-base/deps/core/include/esp8266 -v /home/dave/Documents/Mos-Devices/mos-base/deps/http-server/include:/home/dave/Documents/Mos-Devices/mos-base/deps/http-server/include -v /home/dave/Documents/Mos-Devices/mos-base/deps/wifi/include:/home/dave/Documents/Mos-Devices/mos-base/deps/wifi/include -v /home/dave/Documents/Mos-Devices/mos-base/deps/wifi-setup-web-ui/fs:/home/dave/Documents/Mos-Devices/mos-base/deps/wifi-setup-web-ui/fs -v /home/dave/Documents/Mos-Devices/mos-base/deps/wifi/src:/home/dave/Documents/Mos-Devices/mos-base/deps/wifi/src -v /home/dave/Documents/Mos-Devices/mos-base/deps/rpc-ws/src:/home/dave/Documents/Mos-Devices/mos-base/deps/rpc-ws/src -v /home/dave/Documents/Mos-Devices/mos-base/deps/vfs-fs-spiffs/include:/home/dave/Documents/Mos-Devices/mos-base/deps/vfs-fs-spiffs/include -v /home/dave/Documents/Mos-Devices/mos-base/deps/rpc-ws/include:/home/dave/Documents/Mos-Devices/mos-base/deps/rpc-ws/include -v /home/dave/Documents/Mos-Devices/mos-base/fs:/home/dave/Documents/Mos-Devices/mos-base/fs -v /home/dave/Documents/Mos-Devices/mos-base/deps/wifi/src/esp8266:/home/dave/Documents/Mos-Devices/mos-base/deps/wifi/src/esp8266 -v /home/dave/Documents/Mos-Devices/mos-base/deps/vfs-common/include:/home/dave/Documents/Mos-Devices/mos-base/deps/vfs-common/include --user 1000:1000 docker.io/mgos/esp8266-build:3.0.0_158bb7a5-r1 /bin/bash -c nice make '-j' '4' '-C' '/app' '-f' '/home/dave/Documents/Mos-Devices/mos-base/deps/modules/mongoose-os/platforms/esp8266/Makefile.build' 'all' 'MGOS_VARS_FILE=/home/dave/Documents/Mos-Devices/mos-base/build/gen/vars.mk'
+mount from "/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502" to "/app"
+mount from "/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mongoose-os" to "/mongoose-os"
+mount from "/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mongoose-os" to "/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mongoose-os"
+mount from "/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/build" to "/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/build"
+mount from "/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/src" to "/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/src"
+mount from "/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/build/gen" to "/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/build/gen"
+mount from "/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/mbedtls/src" to "/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/mbedtls/src"
+mount from "/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/mbedtls/src/esp8266" to "/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/mbedtls/src/esp8266"
+mount from "/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mbedtls/library" to "/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mbedtls/library"
+mount from "/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/vfs-common/src" to "/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/vfs-common/src"
+mount from "/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/vfs-common/src/esp8266" to "/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/vfs-common/src/esp8266"
+mount from "/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/vfs-dev-part/src" to "/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/vfs-dev-part/src"
+mount from "/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/vfs-fs-lfs/src" to "/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/vfs-fs-lfs/src"
+mount from "/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/vfs-fs-lfs/littlefs" to "/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/vfs-fs-lfs/littlefs"
+mount from "/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/vfs-fs-lfs/littlefs1" to "/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/vfs-fs-lfs/littlefs1"
+mount from "/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/vfs-fs-spiffs/src" to "/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/vfs-fs-spiffs/src"
+mount from "/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/vfs-fs-spiffs/src/spiffs" to "/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/vfs-fs-spiffs/src/spiffs"
+mount from "/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/core/src" to "/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/core/src"
+mount from "/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/core/src/esp8266" to "/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/core/src/esp8266"
+mount from "/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/mjs/src" to "/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/mjs/src"
+mount from "/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mjs" to "/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mjs"
+mount from "/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/mjs/esp8266/src" to "/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/mjs/esp8266/src"
+mount from "/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/mqtt/src" to "/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/mqtt/src"
+mount from "/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/rpc-common/src" to "/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/rpc-common/src"
+mount from "/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/rpc-mqtt/src" to "/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/rpc-mqtt/src"
+mount from "/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/rpc-service-config/src" to "/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/rpc-service-config/src"
+mount from "/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/rpc-service-fs/src" to "/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/rpc-service-fs/src"
+mount from "/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/rpc-service-gpio/src" to "/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/rpc-service-gpio/src"
+mount from "/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/rpc-uart/src" to "/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/rpc-uart/src"
+mount from "/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/wifi/src" to "/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/wifi/src"
+mount from "/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/wifi/src/esp8266" to "/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/wifi/src/esp8266"
+mount from "/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/mbedtls/include" to "/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/mbedtls/include"
+mount from "/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/mbedtls/include/esp8266" to "/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/mbedtls/include/esp8266"
+mount from "/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mbedtls/include" to "/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mbedtls/include"
+mount from "/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/vfs-common/include" to "/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/vfs-common/include"
+mount from "/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/vfs-common/include/esp8266" to "/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/vfs-common/include/esp8266"
+mount from "/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/mongoose/include" to "/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/mongoose/include"
+mount from "/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/vfs-dev-part/include" to "/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/vfs-dev-part/include"
+mount from "/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/vfs-fs-lfs/include" to "/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/vfs-fs-lfs/include"
+mount from "/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/vfs-fs-lfs/littlefs" to "/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/vfs-fs-lfs/littlefs"
+mount from "/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/vfs-fs-lfs/littlefs1" to "/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/vfs-fs-lfs/littlefs1"
+mount from "/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/vfs-fs-spiffs/include" to "/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/vfs-fs-spiffs/include"
+mount from "/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/vfs-fs-spiffs/include/spiffs" to "/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/vfs-fs-spiffs/include/spiffs"
+mount from "/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/vfs-fs-spiffs/include/esp8266" to "/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/vfs-fs-spiffs/include/esp8266"
+mount from "/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/core/include" to "/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/core/include"
+mount from "/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/core/include/esp8266" to "/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/core/include/esp8266"
+mount from "/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/mjs/include" to "/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/mjs/include"
+mount from "/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/mqtt/include" to "/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/mqtt/include"
+mount from "/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/rpc-common/include" to "/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/rpc-common/include"
+mount from "/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/rpc-mqtt/include" to "/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/rpc-mqtt/include"
+mount from "/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/rpc-service-config/include" to "/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/rpc-service-config/include"
+mount from "/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/rpc-service-gpio/include" to "/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/rpc-service-gpio/include"
+mount from "/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/rpc-uart/include" to "/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/rpc-uart/include"
+mount from "/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/wifi/include" to "/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/wifi/include"
+mount from "/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/ca-bundle/fs" to "/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/ca-bundle/fs"
+mount from "/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/mjs/fs" to "/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/mjs/fs"
+mount from "/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mjs/mjs/lib" to "/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mjs/mjs/lib"
+mount from "/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/mqtt/mjs_fs" to "/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/mqtt/mjs_fs"
+mount from "/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/rpc-common/mjs_fs" to "/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/rpc-common/mjs_fs"
+mount from "/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/wifi/mjs_fs" to "/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/wifi/mjs_fs"
+mount from "/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/mjs/esp8266/fs" to "/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/mjs/esp8266/fs"
+mount from "/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/fs" to "/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/fs"
+mount from "/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/build/objs" to "/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/build/objs"
+mount from "/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/build/gen" to "/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/build/gen"
+Docker arguments: run --name mos_build_2022-04-18T21-16-03-00_8786426617321588525 --rm -i -v /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/src:/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/src -v /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/vfs-common/src:/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/vfs-common/src -v /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/rpc-uart/src:/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/rpc-uart/src -v /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/core/include:/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/core/include -v /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/mqtt/mjs_fs:/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/mqtt/mjs_fs -v /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/build/gen:/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/build/gen -v /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/vfs-fs-spiffs/src/spiffs:/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/vfs-fs-spiffs/src/spiffs -v /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/mqtt/include:/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/mqtt/include -v /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/build/objs:/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/build/objs -v /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/build:/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/build -v /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/mjs/include:/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/mjs/include -v /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/mbedtls/src/esp8266:/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/mbedtls/src/esp8266 -v /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/vfs-fs-lfs/littlefs1:/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/vfs-fs-lfs/littlefs1 -v /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/rpc-service-gpio/src:/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/rpc-service-gpio/src -v /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mjs/mjs/lib:/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mjs/mjs/lib -v /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mongoose-os:/mongoose-os -v /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/rpc-common/mjs_fs:/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/rpc-common/mjs_fs -v /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/vfs-common/src/esp8266:/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/vfs-common/src/esp8266 -v /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/mbedtls/include/esp8266:/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/mbedtls/include/esp8266 -v /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/vfs-fs-lfs/include:/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/vfs-fs-lfs/include -v /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/wifi/include:/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/wifi/include -v /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/vfs-common/include/esp8266:/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/vfs-common/include/esp8266 -v /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/mjs/esp8266/src:/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/mjs/esp8266/src -v /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/rpc-service-fs/src:/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/rpc-service-fs/src -v /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/rpc-service-config/include:/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/rpc-service-config/include -v /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/vfs-fs-lfs/src:/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/vfs-fs-lfs/src -v /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/core/include/esp8266:/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/core/include/esp8266 -v /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mjs:/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mjs -v /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/mongoose/include:/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/mongoose/include -v /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/vfs-dev-part/include:/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/vfs-dev-part/include -v /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/rpc-uart/include:/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/rpc-uart/include -v /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/wifi/mjs_fs:/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/wifi/mjs_fs -v /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/mjs/esp8266/fs:/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/mjs/esp8266/fs -v /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/vfs-fs-lfs/littlefs:/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/vfs-fs-lfs/littlefs -v /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/core/src:/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/core/src -v /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/vfs-fs-spiffs/include:/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/vfs-fs-spiffs/include -v /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/rpc-service-gpio/include:/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/rpc-service-gpio/include -v /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/mjs/fs:/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/mjs/fs -v /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502:/app -v /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/rpc-mqtt/src:/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/rpc-mqtt/src -v /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/wifi/src:/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/wifi/src -v /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mbedtls/include:/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mbedtls/include -v /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/rpc-mqtt/include:/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/rpc-mqtt/include -v /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/ca-bundle/fs:/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/ca-bundle/fs -v /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/rpc-common/src:/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/rpc-common/src -v /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/wifi/src/esp8266:/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/wifi/src/esp8266 -v /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mongoose-os:/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mongoose-os -v /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mbedtls/library:/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mbedtls/library -v /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/vfs-dev-part/src:/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/vfs-dev-part/src -v /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/vfs-fs-spiffs/src:/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/vfs-fs-spiffs/src -v /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/core/src/esp8266:/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/core/src/esp8266 -v /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/mqtt/src:/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/mqtt/src -v /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/mbedtls/include:/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/mbedtls/include -v /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/vfs-fs-spiffs/include/spiffs:/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/vfs-fs-spiffs/include/spiffs -v /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/fs:/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/fs -v /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/rpc-service-config/src:/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/rpc-service-config/src -v /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/vfs-common/include:/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/vfs-common/include -v /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/vfs-fs-spiffs/include/esp8266:/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/vfs-fs-spiffs/include/esp8266 -v /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/mbedtls/src:/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/mbedtls/src -v /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/mjs/src:/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/mjs/src -v /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/rpc-common/include:/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/rpc-common/include --user 0:0 docker.io/mgos/esp8266-build:3.0.0_158bb7a5-r1 /bin/bash -c nice make '-j' '8' '-C' '/app' '-f' '/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mongoose-os/platforms/esp8266/Makefile.build' 'all' 'MGOS_VARS_FILE=/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/build/gen/vars.mk'
 make: Entering directory '/app'
-  MKDIR /home/dave/Documents/Mos-Devices/mos-base/build/fw
-  MKDIR /home/dave/Documents/Mos-Devices/mos-base/build/objs/fw_temp
-  GEN   /home/dave/Documents/Mos-Devices/mos-base/build/gen/mgos_config.c
+  MKDIR /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/build/fw
+  MKDIR /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/build/objs/fw_temp
+  GEN   /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/build/gen/mgos_config.c
+  GEN   /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/build/gen/mgos_ro_vars.c
 CC esptool2.c
-gcc -O2 -Wall -c esptool2.c -o /home/dave/Documents/Mos-Devices/mos-base/build/objs/esptool2.o
-  GEN   /home/dave/Documents/Mos-Devices/mos-base/build/gen/mgos_ro_vars.c
+gcc -O2 -Wall -c esptool2.c -o /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/build/objs/esptool2.o
 CC esptool2_elf.c
-gcc -O2 -Wall -c esptool2_elf.c -o /home/dave/Documents/Mos-Devices/mos-base/build/objs/esptool2_elf.o
-  GEN   /home/dave/Documents/Mos-Devices/mos-base/build/gen/ffi_exports.c
-  GEN   /mongoose-os/platforms/esp8266/ld/non_os.ld (0xd2ff0 @ 0x40208010) -> /home/dave/Documents/Mos-Devices/mos-base/build/gen/0x8000.ld
-LD /home/dave/Documents/Mos-Devices/mos-base/build/objs/esptool2
-gcc -o /home/dave/Documents/Mos-Devices/mos-base/build/objs/esptool2 /home/dave/Documents/Mos-Devices/mos-base/build/objs/esptool2.o /home/dave/Documents/Mos-Devices/mos-base/build/objs/esptool2_elf.o
+gcc -O2 -Wall -c esptool2_elf.c -o /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/build/objs/esptool2_elf.o
+  GEN   /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/build/gen/ffi_exports.c
+  GEN   /mongoose-os/platforms/esp8266/ld/non_os.ld (0xd2ff0 @ 0x40208010) -> /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/build/gen/0x8000.ld
+LD /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/build/objs/esptool2
+gcc -o /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/build/objs/esptool2 /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/build/objs/esptool2.o /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/build/objs/esptool2_elf.o
 CC rboot-stage2a.c
   CC    /mongoose-os/platforms/esp8266/src/esp_cache.c
-  CC    /home/dave/Documents/Mos-Devices/mos-base/src/main.c
-  CC    /home/dave/Documents/Mos-Devices/mos-base/build/gen/mgos_deps_init.c
-LD /home/dave/Documents/Mos-Devices/mos-base/build/objs/rboot/rboot-stage2a.elf
-E2 /home/dave/Documents/Mos-Devices/mos-base/build/gen/rboot-hex2a.h
+  CP    /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/build/gen/conf0.json -> /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/build/objs/fs
+  CP    /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/ca-bundle/fs/ca.pem -> /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/build/objs/fs
+  CP    /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/mjs/fs/api_bitbang.js -> /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/build/objs/fs
+  CP    /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/mjs/fs/api_config.js -> /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/build/objs/fs
+  CC    /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/src/main.c
+  CP    /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/mjs/fs/api_events.js -> /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/build/objs/fs
+  CP    /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/mjs/fs/api_gpio.js -> /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/build/objs/fs
+  CP    /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/mjs/fs/api_http.js -> /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/build/objs/fs
+LD /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/build/objs/rboot/rboot-stage2a.elf
+  CC    /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/build/gen/mgos_deps_init.c
+  CP    /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/mjs/fs/api_log.js -> /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/build/objs/fs
+  CP    /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/mjs/fs/api_net.js -> /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/build/objs/fs
+  CP    /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/mjs/fs/api_sys.js -> /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/build/objs/fs
+  CP    /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/mjs/fs/api_timer.js -> /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/build/objs/fs
+  CP    /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/mjs/fs/api_uart.js -> /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/build/objs/fs
+  CP    /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/mjs/fs/polyfill.js -> /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/build/objs/fs
+  CP    /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mjs/mjs/lib/api_dataview.js -> /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/build/objs/fs
+E2 /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/build/gen/rboot-hex2a.h
+  CP    /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mjs/mjs/lib/api_file.js -> /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/build/objs/fs
+  CC    /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/mbedtls/src/mgos_mbedtls.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/mbedtls/src/esp8266/esp_aes.c
+  CP    /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mjs/mjs/lib/api_math.js -> /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/build/objs/fs
 CC rboot.c
-  CC    /home/dave/Documents/Mos-Devices/mos-base/deps/mbedtls/src/mgos_mbedtls.c
-  CC    /home/dave/Documents/Mos-Devices/mos-base/deps/mbedtls/src/esp8266/esp_aes.c
-  CC    /home/dave/Documents/Mos-Devices/mos-base/deps/mbedtls/src/esp8266/esp_md5.c
-  CC    /home/dave/Documents/Mos-Devices/mos-base/deps/mbedtls/src/esp8266/esp_sha1.c
-LD /home/dave/Documents/Mos-Devices/mos-base/build/objs/rboot/rboot.elf
-E2 /home/dave/Documents/Mos-Devices/mos-base/build/objs/rboot/rboot.bin
-  CC    /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/aes.c
-  CC    /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/aes_atca.c
-  CC    /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/aesni.c
-  CC    /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/arc4.c
-/home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/aes.c:359:23: warning: 'RCON' defined but not used [-Wunused-const-variable=]
+  CC    /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/mbedtls/src/esp8266/esp_md5.c
+  CP    /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/mqtt/mjs_fs/api_mqtt.js -> /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/build/objs/fs
+  CC    /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/mbedtls/src/esp8266/esp_sha1.c
+  CP    /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/rpc-common/mjs_fs/api_rpc.js -> /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/build/objs/fs
+  CP    /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/wifi/mjs_fs/api_wifi.js -> /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/build/objs/fs
+  CP    /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/mjs/esp8266/fs/api_arch_uart.js -> /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/build/objs/fs
+  CC    /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mbedtls/library/aes.c
+  CP    /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/mjs/esp8266/fs/api_esp8266.js -> /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/build/objs/fs
+  CP    /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/fs/index.html -> /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/build/objs/fs
+  CP    /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/fs/init.js -> /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/build/objs/fs
+  CC    /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mbedtls/library/aes_atca.c
+  MKFS  /usr/local/bin/mkspiffs8 131072 {bs:4096,ps:256,es:4096} /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/build/objs/fs -> /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/build/objs/fw_temp/fs.bin
+     FS params: size=131072, bs=4096, ps=256, es=4096
+       Adding init.js: 562
+       Adding api_net.js: 5122
+       Adding api_wifi.js: 1020
+       Adding api_http.js: 3812
+       Adding api_events.js: 3857
+       Adding api_config.js: LD /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/build/objs/rboot/rboot.elf
+2170
+       Adding api_mqtt.js: 2927
+       Adding api_rpc.js: 2941
+       Adding api_file.js: 2105
+       Adding api_math.js: 1890
+       Adding api_gpio.js: 3571
+       Adding api_timer.js: 1750
+       Adding api_uart.js: 5772
+       Adding api_bitbang.js: 815
+       Adding api_arch_uart.js: 651
+       Adding index.html: 70
+       Adding api_sys.js: 1652
+       Adding api_log.js: 2005
+       Adding api_esp8266.js: 231
+       Adding polyfill.js: 1415
+       Adding ca.pem: 31787
+       Adding api_dataview.js: 7433
+       Adding conf0.json: 3
+     FS stats : space total=113201, used=92368, free=20833
+  CC    /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mbedtls/library/aesni.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mbedtls/library/arc4.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mbedtls/library/aria.c
+/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mbedtls/library/aes.c:359:23: warning: 'RCON' defined but not used [-Wunused-const-variable=]
   359 | static const uint32_t RCON[10] =
       |                       ^~~~
-/home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/aes.c:349:23: warning: 'RT3' defined but not used [-Wunused-const-variable=]
+/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mbedtls/library/aes.c:349:23: warning: 'RT3' defined but not used [-Wunused-const-variable=]
   349 | static const uint32_t RT3[256] = { RT };
       |                       ^~~
-/home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/aes.c:345:23: warning: 'RT2' defined but not used [-Wunused-const-variable=]
+/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mbedtls/library/aes.c:345:23: warning: 'RT2' defined but not used [-Wunused-const-variable=]
   345 | static const uint32_t RT2[256] = { RT };
       |                       ^~~
-/home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/aes.c:341:23: warning: 'RT1' defined but not used [-Wunused-const-variable=]
+/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mbedtls/library/aes.c:341:23: warning: 'RT1' defined but not used [-Wunused-const-variable=]
   341 | static const uint32_t RT1[256] = { RT };
       |                       ^~~
-/home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/aes.c:335:23: warning: 'RT0' defined but not used [-Wunused-const-variable=]
+/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mbedtls/library/aes.c:335:23: warning: 'RT0' defined but not used [-Wunused-const-variable=]
   335 | static const uint32_t RT0[256] = { RT };
       |                       ^~~
-/home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/aes.c:228:28: warning: 'RSb' defined but not used [-Wunused-const-variable=]
+/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mbedtls/library/aes.c:228:28: warning: 'RSb' defined but not used [-Wunused-const-variable=]
   228 | static const unsigned char RSb[256] =
       |                            ^~~
-/home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/aes.c:218:23: warning: 'FT3' defined but not used [-Wunused-const-variable=]
+/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mbedtls/library/aes.c:218:23: warning: 'FT3' defined but not used [-Wunused-const-variable=]
   218 | static const uint32_t FT3[256] = { FT };
       |                       ^~~
-/home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/aes.c:214:23: warning: 'FT2' defined but not used [-Wunused-const-variable=]
+/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mbedtls/library/aes.c:214:23: warning: 'FT2' defined but not used [-Wunused-const-variable=]
   214 | static const uint32_t FT2[256] = { FT };
       |                       ^~~
-/home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/aes.c:210:23: warning: 'FT1' defined but not used [-Wunused-const-variable=]
+/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mbedtls/library/aes.c:210:23: warning: 'FT1' defined but not used [-Wunused-const-variable=]
   210 | static const uint32_t FT1[256] = { FT };
       |                       ^~~
-/home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/aes.c:204:23: warning: 'FT0' defined but not used [-Wunused-const-variable=]
+/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mbedtls/library/aes.c:204:23: warning: 'FT0' defined but not used [-Wunused-const-variable=]
   204 | static const uint32_t FT0[256] = { FT };
       |                       ^~~
-/home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/aes.c:97:28: warning: 'FSb' defined but not used [-Wunused-const-variable=]
+/data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mbedtls/library/aes.c:97:28: warning: 'FSb' defined but not used [-Wunused-const-variable=]
    97 | static const unsigned char FSb[256] =
       |                            ^~~
-  CC    /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/aria.c
-  CC    /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/asn1parse.c
-  CC    /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/asn1write.c
-  CC    /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/base64.c
-  CC    /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/bignum.c
-  CC    /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/blowfish.c
-  CC    /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/camellia.c
-  CC    /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/ccm.c
-  CC    /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/certs.c
-  CC    /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/chacha20.c
-  CC    /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/chachapoly.c
-  CC    /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/cipher.c
-  CC    /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/cipher_wrap.c
-  CC    /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/cmac.c
-  CC    /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/ctr_drbg.c
-  CC    /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/debug.c
-  CC    /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/des.c
-  CC    /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/dhm.c
-  CC    /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/ecdh.c
-  CC    /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/ecdsa.c
-  CC    /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/ecjpake.c
-  CC    /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/ecp.c
-  CC    /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/ecp_atca.c
-  CC    /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/ecp_curves.c
-  CC    /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/entropy.c
-  CC    /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/entropy_poll.c
-  CC    /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/error.c
-  CC    /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/gcm.c
-  CC    /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/havege.c
-  CC    /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/hkdf.c
-  CC    /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/hmac_drbg.c
-  CC    /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/md.c
-  CC    /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/md2.c
-  CC    /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/md4.c
-  CC    /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/md5.c
-  CC    /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/md_wrap.c
-  CC    /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/memory_buffer_alloc.c
-  CC    /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/net_sockets.c
-  CC    /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/nist_kw.c
-  CC    /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/oid.c
-  CC    /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/padlock.c
-  CC    /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/pem.c
-  CC    /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/pk.c
-  CC    /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/pk_wrap.c
-  CC    /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/pkcs11.c
-  CC    /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/pkcs12.c
-  CC    /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/pkcs5.c
-  CC    /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/pkparse.c
-  CC    /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/pkwrite.c
-  CC    /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/platform.c
-  CC    /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/platform_util.c
-  CC    /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/poly1305.c
-  CC    /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/ripemd160.c
-  CC    /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/rsa.c
-  CC    /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/rsa_internal.c
-  CC    /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/sha1.c
-  CC    /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/sha256.c
-  CC    /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/sha512.c
-  CC    /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/ssl_cache.c
-  CC    /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/ssl_ciphersuites.c
-  CC    /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/ssl_cli.c
-  CC    /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/ssl_cookie.c
-  CC    /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/ssl_srv.c
-  CC    /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/ssl_ticket.c
-  CC    /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/ssl_tls.c
-  CC    /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/threading.c
-  CC    /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/timing.c
-  CC    /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/version.c
-  CC    /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/version_features.c
-  CC    /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/x509.c
-  CC    /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/x509_create.c
-  CC    /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/x509_crl.c
-  CC    /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/x509_crt.c
-  CC    /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/x509_csr.c
-  CC    /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/x509write_crt.c
-  CC    /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/x509write_csr.c
-  CC    /home/dave/Documents/Mos-Devices/mos-base/deps/modules/mbedtls/library/xtea.c
-  CC    /home/dave/Documents/Mos-Devices/mos-base/deps/vfs-common/src/mgos_vfs.c
-  CC    /home/dave/Documents/Mos-Devices/mos-base/deps/vfs-common/src/mgos_vfs_dev.c
-  CC    /home/dave/Documents/Mos-Devices/mos-base/deps/vfs-common/src/mgos_vfs_internal.c
-  CC    /home/dave/Documents/Mos-Devices/mos-base/deps/vfs-common/src/esp8266/esp_fs.c
-  CC    /home/dave/Documents/Mos-Devices/mos-base/deps/vfs-common/src/esp8266/esp_vfs_dev_sysflash.c
-  CC    /home/dave/Documents/Mos-Devices/mos-base/deps/vfs-dev-part/src/mgos_vfs_dev_part.c
-  CC    /home/dave/Documents/Mos-Devices/mos-base/deps/vfs-fs-lfs/src/mgos_vfs_lfs.c
-  CC    /home/dave/Documents/Mos-Devices/mos-base/deps/vfs-fs-lfs/littlefs/lfs.c
-  CC    /home/dave/Documents/Mos-Devices/mos-base/deps/vfs-fs-lfs/littlefs/lfs_util.c
-  CC    /home/dave/Documents/Mos-Devices/mos-base/deps/vfs-fs-lfs/littlefs1/lfs1.c
-  CC    /home/dave/Documents/Mos-Devices/mos-base/deps/vfs-fs-lfs/littlefs1/lfs1_util.c
-  CC    /home/dave/Documents/Mos-Devices/mos-base/deps/vfs-fs-spiffs/src/mgos_vfs_fs_spiffs.c
-  CC    /home/dave/Documents/Mos-Devices/mos-base/deps/vfs-fs-spiffs/src/spiffs/spiffs_cache.c
-  CC    /home/dave/Documents/Mos-Devices/mos-base/deps/vfs-fs-spiffs/src/spiffs/spiffs_check.c
-  CC    /home/dave/Documents/Mos-Devices/mos-base/deps/vfs-fs-spiffs/src/spiffs/spiffs_gc.c
-  CC    /home/dave/Documents/Mos-Devices/mos-base/deps/vfs-fs-spiffs/src/spiffs/spiffs_hydrogen.c
-  CC    /home/dave/Documents/Mos-Devices/mos-base/deps/vfs-fs-spiffs/src/spiffs/spiffs_nucleus.c
-  CC    /home/dave/Documents/Mos-Devices/mos-base/deps/core/src/mgos_core.c
-  CC    /home/dave/Documents/Mos-Devices/mos-base/deps/core/src/esp8266/esp_rboot.c
-  CC    /home/dave/Documents/Mos-Devices/mos-base/deps/http-server/src/mgos_http_server.c
-  CC    /home/dave/Documents/Mos-Devices/mos-base/deps/rpc-common/src/mg_rpc.c
-  CC    /home/dave/Documents/Mos-Devices/mos-base/deps/rpc-common/src/mg_rpc_channel.c
-  CC    /home/dave/Documents/Mos-Devices/mos-base/deps/rpc-common/src/mg_rpc_channel_http.c
-  CC    /home/dave/Documents/Mos-Devices/mos-base/deps/rpc-common/src/mgos_rpc.c
-  CC    /home/dave/Documents/Mos-Devices/mos-base/deps/rpc-service-config/src/mgos_service_config.c
-  CC    /home/dave/Documents/Mos-Devices/mos-base/deps/rpc-service-fs/src/mgos_service_fs.c
-  CC    /home/dave/Documents/Mos-Devices/mos-base/deps/rpc-uart/src/mgos_rpc_channel_uart.c
-  CC    /home/dave/Documents/Mos-Devices/mos-base/deps/wifi/src/mgos_wifi.c
-  CC    /home/dave/Documents/Mos-Devices/mos-base/deps/wifi/src/mjs_wifi.c
-  CC    /home/dave/Documents/Mos-Devices/mos-base/deps/wifi/src/esp8266/esp_wifi.c
-  CC    /home/dave/Documents/Mos-Devices/mos-base/deps/rpc-ws/src/mgos_rpc_channel_ws.c
-  CC    /home/dave/Documents/Mos-Devices/mos-base/deps/rpc-ws/src/mgos_rpc_ws.c
-  CC    /home/dave/Documents/Mos-Devices/mos-base/build/gen/ffi_exports.c
+E2 /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/build/objs/rboot/rboot.bin
+  CC    /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mbedtls/library/asn1parse.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mbedtls/library/asn1write.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mbedtls/library/base64.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mbedtls/library/bignum.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mbedtls/library/blowfish.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mbedtls/library/camellia.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mbedtls/library/ccm.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mbedtls/library/certs.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mbedtls/library/chacha20.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mbedtls/library/chachapoly.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mbedtls/library/cipher.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mbedtls/library/cipher_wrap.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mbedtls/library/cmac.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mbedtls/library/ctr_drbg.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mbedtls/library/debug.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mbedtls/library/des.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mbedtls/library/dhm.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mbedtls/library/ecdh.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mbedtls/library/ecdsa.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mbedtls/library/ecjpake.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mbedtls/library/ecp.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mbedtls/library/ecp_atca.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mbedtls/library/ecp_curves.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mbedtls/library/entropy.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mbedtls/library/entropy_poll.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mbedtls/library/error.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mbedtls/library/gcm.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mbedtls/library/havege.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mbedtls/library/hkdf.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mbedtls/library/hmac_drbg.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mbedtls/library/md.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mbedtls/library/md2.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mbedtls/library/md4.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mbedtls/library/md5.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mbedtls/library/md_wrap.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mbedtls/library/memory_buffer_alloc.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mbedtls/library/net_sockets.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mbedtls/library/nist_kw.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mbedtls/library/oid.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mbedtls/library/padlock.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mbedtls/library/pem.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mbedtls/library/pk.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mbedtls/library/pk_wrap.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mbedtls/library/pkcs11.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mbedtls/library/pkcs12.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mbedtls/library/pkcs5.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mbedtls/library/pkparse.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mbedtls/library/pkwrite.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mbedtls/library/platform.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mbedtls/library/poly1305.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mbedtls/library/platform_util.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mbedtls/library/ripemd160.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mbedtls/library/rsa.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mbedtls/library/rsa_internal.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mbedtls/library/sha1.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mbedtls/library/sha256.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mbedtls/library/sha512.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mbedtls/library/ssl_cache.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mbedtls/library/ssl_ciphersuites.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mbedtls/library/ssl_cli.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mbedtls/library/ssl_cookie.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mbedtls/library/ssl_srv.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mbedtls/library/ssl_ticket.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mbedtls/library/ssl_tls.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mbedtls/library/timing.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mbedtls/library/threading.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mbedtls/library/version.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mbedtls/library/version_features.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mbedtls/library/x509.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mbedtls/library/x509_create.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mbedtls/library/x509_crl.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mbedtls/library/x509_crt.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mbedtls/library/x509_csr.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mbedtls/library/x509write_crt.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mbedtls/library/x509write_csr.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mbedtls/library/xtea.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/vfs-common/src/mgos_vfs.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/vfs-common/src/mgos_vfs_dev.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/vfs-common/src/mgos_vfs_internal.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/vfs-common/src/esp8266/esp_fs.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/vfs-common/src/esp8266/esp_vfs_dev_sysflash.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/vfs-dev-part/src/mgos_vfs_dev_part.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/vfs-fs-lfs/src/mgos_vfs_lfs.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/vfs-fs-lfs/littlefs/lfs.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/vfs-fs-lfs/littlefs/lfs_util.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/vfs-fs-lfs/littlefs1/lfs1.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/vfs-fs-lfs/littlefs1/lfs1_util.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/vfs-fs-spiffs/src/mgos_vfs_fs_spiffs.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/vfs-fs-spiffs/src/spiffs/spiffs_cache.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/vfs-fs-spiffs/src/spiffs/spiffs_check.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/vfs-fs-spiffs/src/spiffs/spiffs_gc.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/vfs-fs-spiffs/src/spiffs/spiffs_hydrogen.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/vfs-fs-spiffs/src/spiffs/spiffs_nucleus.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/core/src/mgos_core.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/core/src/esp8266/esp_rboot.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/mjs/src/mos_mjs.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/modules/mjs/mjs.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/mjs/esp8266/src/esp8266_mjs.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/mqtt/src/mgos_mqtt.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/mqtt/src/mgos_mqtt_conn.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/rpc-common/src/mg_rpc.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/rpc-common/src/mg_rpc_channel.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/rpc-common/src/mg_rpc_channel_http.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/rpc-common/src/mgos_rpc.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/rpc-mqtt/src/mgos_rpc_channel_mqtt.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/rpc-service-config/src/mgos_service_config.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/rpc-service-fs/src/mgos_service_fs.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/rpc-service-gpio/src/mgos_gpio_service.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/rpc-uart/src/mgos_rpc_channel_uart.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/wifi/src/mgos_wifi.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/wifi/src/mjs_wifi.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/deps/wifi/src/esp8266/esp_wifi.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/build/gen/ffi_exports.c
   CC    /mongoose-os/src/common/cs_file.c
   CC    /mongoose-os/src/common/cs_hex.c
   CC    /mongoose-os/src/common/cs_rbuf.c
@@ -431,8 +431,8 @@ E2 /home/dave/Documents/Mos-Devices/mos-base/build/objs/rboot/rboot.bin
   CXX    /mongoose-os/src/mgos_timers.cpp
   CC    /mongoose-os/src/mgos_mmap_esp.c
   CC    /mongoose-os/src/mgos_sys_config.c
-  CC    /home/dave/Documents/Mos-Devices/mos-base/build/gen/mgos_config.c
-  CC    /home/dave/Documents/Mos-Devices/mos-base/build/gen/mgos_ro_vars.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/build/gen/mgos_config.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/build/gen/mgos_ro_vars.c
   CC    /mongoose-os/src/mgos_system.c
   CXX    /mongoose-os/src/mgos_system.cpp
   CC    /mongoose-os/src/mgos_uart.c
@@ -466,39 +466,23 @@ E2 /home/dave/Documents/Mos-Devices/mos-base/build/objs/rboot/rboot.bin
   CC    /mongoose-os/src/mgos_net.c
   CC    /mongoose-os/src/mgos_bitbang.c
   CC    /mongoose-os/platforms/esp8266/src/esp_exc_non_os.c
-  AS    /mongoose-os/platforms/esp8266/src/esp_exc_vectors.S -> /home/dave/Documents/Mos-Devices/mos-base/build/objs/esp_exc_vectors.S.o
-  AS    /mongoose-os/platforms/esp8266/src/esp_nsleep100.S -> /home/dave/Documents/Mos-Devices/mos-base/build/objs/esp_nsleep100.S.o
-  CP    /home/dave/Documents/Mos-Devices/mos-base/build/gen/conf0.json -> /home/dave/Documents/Mos-Devices/mos-base/build/objs/fs
-  CP    /home/dave/Documents/Mos-Devices/mos-base/deps/ca-bundle/fs/ca.pem -> /home/dave/Documents/Mos-Devices/mos-base/build/objs/fs
-  CP    /home/dave/Documents/Mos-Devices/mos-base/deps/wifi-setup-web-ui/fs/htm.min.js -> /home/dave/Documents/Mos-Devices/mos-base/build/objs/fs
-  CP    /home/dave/Documents/Mos-Devices/mos-base/deps/wifi-setup-web-ui/fs/index.html -> /home/dave/Documents/Mos-Devices/mos-base/build/objs/fs
-  CP    /home/dave/Documents/Mos-Devices/mos-base/deps/wifi-setup-web-ui/fs/json-rpc-ws.js -> /home/dave/Documents/Mos-Devices/mos-base/build/objs/fs
-  CP    /home/dave/Documents/Mos-Devices/mos-base/deps/wifi-setup-web-ui/fs/main.js -> /home/dave/Documents/Mos-Devices/mos-base/build/objs/fs
-  CP    /home/dave/Documents/Mos-Devices/mos-base/deps/wifi-setup-web-ui/fs/preact.min.js -> /home/dave/Documents/Mos-Devices/mos-base/build/objs/fs
-  MKFS  /usr/local/bin/mkspiffs8 131072 {bs:4096,ps:256,es:4096} /home/dave/Documents/Mos-Devices/mos-base/build/objs/fs -> /home/dave/Documents/Mos-Devices/mos-base/build/objs/fw_temp/fs.bin
-     FS params: size=131072, bs=4096, ps=256, es=4096
-       Adding htm.min.js: 1647
-       Adding index.html: 1443
-       Adding json-rpc-ws.js: 2215
-       Adding conf0.json: 3
-       Adding preact.min.js: 11995
-       Adding main.js: 2597
-       Adding ca.pem: 31787
-     FS stats : space total=113201, used=54467, free=58734
-  GEN   /home/dave/Documents/Mos-Devices/mos-base/build/gen/build_info.c
-  GEN   /home/dave/Documents/Mos-Devices/mos-base/build/gen/mg_build_info.c
-  AR    /home/dave/Documents/Mos-Devices/mos-base/build/objs/mongoose-os.a
-  CC    /home/dave/Documents/Mos-Devices/mos-base/build/gen/build_info.c
-  CC    /home/dave/Documents/Mos-Devices/mos-base/build/gen/mg_build_info.c
-  LD    /home/dave/Documents/Mos-Devices/mos-base/build/objs/mos-base.elf
-  FW    /home/dave/Documents/Mos-Devices/mos-base/build/objs/mos-base.elf -> /home/dave/Documents/Mos-Devices/mos-base/build/objs/mos-base.bin
-  GEN    /home/dave/Documents/Mos-Devices/mos-base/build/objs/fw_temp/manifest.json
-  ZIP    /home/dave/Documents/Mos-Devices/mos-base/build/fw/mos-base-esp8266-last.zip
-     Adding /home/dave/Documents/Mos-Devices/mos-base/build/objs/fw_temp/esp_init_data_default_v08.bin
-     Adding /home/dave/Documents/Mos-Devices/mos-base/build/objs/fw_temp/fs.bin
-     Adding /home/dave/Documents/Mos-Devices/mos-base/build/objs/fw_temp/mos-base.bin
-     Adding /home/dave/Documents/Mos-Devices/mos-base/build/objs/fw_temp/rboot.bin
-  Built mos-base/esp8266 version 1.0 (20210710-185123/gfbb3e93-main-dirty)
+  AS    /mongoose-os/platforms/esp8266/src/esp_nsleep100.S -> /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/build/objs/esp_nsleep100.S.o
+  AS    /mongoose-os/platforms/esp8266/src/esp_exc_vectors.S -> /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/build/objs/esp_exc_vectors.S.o
+  GEN   /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/build/gen/mg_build_info.c
+  AR    /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/build/objs/mongoose-os.a
+  CC    /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/build/gen/mg_build_info.c
+  GEN   /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/build/gen/build_info.c
+  CC    /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/build/gen/build_info.c
+  LD    /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/build/objs/mqtt_esp8266_puerta_mos.elf
+  FW    /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/build/objs/mqtt_esp8266_puerta_mos.elf -> /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/build/objs/mqtt_esp8266_puerta_mos.bin
+  GEN    /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/build/objs/fw_temp/manifest.json
+  ZIP    /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/build/fw/mqtt_esp8266_puerta_mos-esp8266-last.zip
+     Adding /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/build/objs/fw_temp/esp_init_data_default_v08.bin
+     Adding /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/build/objs/fw_temp/fs.bin
+     Adding /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/build/objs/fw_temp/mqtt_esp8266_puerta_mos.bin
+     Adding /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/build/objs/fw_temp/rboot.bin
+  Built mqtt_esp8266_puerta_mos/esp8266 version 1.0 (20220418-211617)
 make: Leaving directory '/app'
-Success, built mos-base/esp8266 version 1.0 (20210710-185123/gfbb3e93-main-dirty).
-Firmware saved to /home/dave/Documents/Mos-Devices/mos-base/build/fw.zip
+Success, built mqtt_esp8266_puerta_mos/esp8266 version 1.0 (20220418-211617).
+Firmware saved to /data/fwbuild-volumes/2.19.1/apps/mqtt_esp8266_puerta_mos/esp8266/build_contexts/build_ctx_254551502/build/fw.zip
+By the way, there is a newer version available: "2.20.0" (you use "2.19.1"). Run "mos update" to upgrade.
